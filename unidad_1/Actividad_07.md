@@ -12,11 +12,11 @@ La experiencia representa el nacimiento y evolución de una galaxia mediante un 
 
 La idea central es mostrar que, aunque el comportamiento de las partículas parece caótico, existen reglas probabilísticas que permiten la aparición de estructuras complejas. El visitante no controla el sistema, sino que modifica las probabilidades que gobiernan su evolución, demostrando que pequeñas influencias pueden transformar el resultado sin determinarlo completamente.
 
-## Dirección artística
+### Dirección artística
 
 La propuesta toma como referencia fotografías astronómicas del telescopio Hubble y del James Webb, buscando una estética cercana al espacio profundo.
 
-### Paleta visual
+#### Paleta visual
 
 * Fondo negro con ligeros degradados azul oscuro y violeta.
 * Polvo cósmico formado por pequeñas partículas.
@@ -34,9 +34,9 @@ La propuesta toma como referencia fotografías astronómicas del telescopio Hubb
 
 La galaxia nunca permanece estática; siempre continúa evolucionando.
 
-## Traducción de los conceptos del reto
+### Traducción de los conceptos del reto
 
-### Posibilidad
+#### Posibilidad
 
 La experiencia comienza con una nube de polvo cósmico formada por miles de partículas.
 
@@ -46,7 +46,7 @@ Cada partícula realiza una caminata aleatoria, por lo que inicialmente todas la
 
 * Caminata aleatoria.
 
-### Tendencia
+#### Tendencia
 
 A medida que el sistema evoluciona, pequeñas preferencias de movimiento hacen que algunas regiones comiencen a concentrar mayor cantidad de partículas.
 
@@ -56,7 +56,7 @@ Estas pequeñas diferencias acumuladas generan lentamente los primeros brazos de
 
 * Distribuciones no uniformes.
 
-### Normalidad
+#### Normalidad
 
 Cuando nacen nuevas estrellas, la mayoría aparece cerca del núcleo galáctico.
 
@@ -66,7 +66,7 @@ Esto genera una concentración natural de materia en el centro y una disminució
 
 * Distribución normal (Gaussiana).
 
-### Excepción
+#### Excepción
 
 De manera ocasional ocurre un evento poco probable.
 
@@ -78,7 +78,7 @@ Ese salto permite iniciar la formación de nuevos cúmulos en regiones antes vac
 
 * Lévy Flight.
 
-### Influencia
+#### Influencia
 
 La presencia del visitante modifica las probabilidades del sistema sin controlar directamente las partículas.
 
@@ -92,25 +92,25 @@ El sistema continúa funcionando incluso cuando no existe interacción.
 * Ruido Perlin.
 * Distribuciones de probabilidad.
 
-## Evolución del sistema
+### Evolución del sistema
 
 La experiencia no comienza con una galaxia formada.
 
 El proceso completo representa su nacimiento.
 
-### Etapa 1 — Polvo cósmico
+#### Etapa 1 — Polvo cósmico
 
 El universo está compuesto únicamente por pequeñas partículas con un brillo muy tenue.
 
 Estas representan gas y polvo interestelar.
 
-### Etapa 2 — Agrupación
+#### Etapa 2 — Agrupación
 
 Las partículas comienzan a concentrarse lentamente debido a las reglas probabilísticas del sistema.
 
 Empiezan a aparecer regiones con mayor densidad.
 
-### Etapa 3 — Nacimiento de estrellas
+#### Etapa 3 — Nacimiento de estrellas
 
 Cuando una región alcanza suficiente concentración, algunas partículas comienzan a transformarse.
 
@@ -128,7 +128,7 @@ Estrella con halo luminoso
 
 Las estrellas no aparecen instantáneamente; evolucionan visualmente conforme aumenta su energía.
 
-### Etapa 4 — Formación de la galaxia
+#### Etapa 4 — Formación de la galaxia
 
 Con el paso del tiempo aparecen:
 
@@ -139,7 +139,7 @@ Con el paso del tiempo aparecen:
 
 La galaxia nunca deja de transformarse.
 
-### Uso del ruido Perlin
+#### Uso del ruido Perlin
 
 El ruido Perlin se utilizará para representar procesos continuos del universo.
 
@@ -152,7 +152,7 @@ No controlará la posición principal de las partículas, sino aspectos orgánic
 
 Esto permitirá evitar movimientos bruscos y generar una sensación más natural.
 
-## Interacción
+### Interacción
 
 El cursor representará una masa gravitacional temporal.
 
@@ -167,7 +167,7 @@ En cambio modificará probabilidades relacionadas con:
 
 El usuario influye en el sistema, pero nunca determina exactamente lo que ocurrirá.
 
-# Resultado esperado
+### Resultado esperado
 
 Se espera obtener una experiencia donde cada ejecución produzca una galaxia diferente, pero manteniendo siempre la misma identidad visual y conceptual.
 
