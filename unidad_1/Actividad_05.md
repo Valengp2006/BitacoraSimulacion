@@ -5,9 +5,6 @@ La idea del **Lévy flight** es que la mayoría de los movimientos son cortos, p
 ## Código
 
 ```javascript
-// The Nature of Code
-// Random Walker con Lévy Flight
-
 let walker;
 
 function setup() {
