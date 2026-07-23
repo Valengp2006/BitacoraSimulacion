@@ -1,174 +1,219 @@
-# Actividad 07 – Reto de diseño: Navegar la incertidumbre
+# Actividad 07 — Navegar la incertidumbre
 
-## Concepto de la experiencia
+## Idea inicial
 
-### Nombre
+El objetivo del ejercicio era representar la incertidumbre sin ilustrarla de manera literal.
 
-Nacimiento de una galaxia.
+En lugar de utilizar elementos reconocibles, decidí trabajar con un lenguaje visual completamente geométrico, inspirado en composiciones abstractas, donde pequeñas figuras simples se organizan progresivamente hasta formar estructuras mayores.
 
-### Intención conceptual
+La intención fue que el visitante percibiera cómo distintas reglas probabilísticas producen organizaciones diferentes dentro del mismo sistema visual.
 
-La experiencia representa el nacimiento y evolución de una galaxia mediante un sistema generativo en tiempo real. En lugar de ilustrar literalmente los conceptos de posibilidad, tendencia o excepción, estos se traducen en comportamientos del universo.
+## Referentes
 
-La idea central es mostrar que, aunque el comportamiento de las partículas parece caótico, existen reglas probabilísticas que permiten la aparición de estructuras complejas. El visitante no controla el sistema, sino que modifica las probabilidades que gobiernan su evolución, demostrando que pequeñas influencias pueden transformar el resultado sin determinarlo completamente.
+Inicialmente exploré sistemas relacionados con el espacio y la formación de galaxias.
 
-### Dirección artística
+Después de varias pruebas observé que la narrativa terminaba siendo demasiado literal y el comportamiento probabilístico pasaba a un segundo plano.
 
-La propuesta toma como referencia fotografías astronómicas del telescopio Hubble y del James Webb, buscando una estética cercana al espacio profundo.
+Por esta razón decidí cambiar completamente la propuesta hacia una composición abstracta basada en módulos geométricos.
 
-#### Paleta visual
+Los referentes principales fueron:
 
-* Fondo negro con ligeros degradados azul oscuro y violeta.
-* Polvo cósmico formado por pequeñas partículas.
-* Estrellas con halo luminoso (glow suave).
-* Diferentes tamaños para generar sensación de profundidad.
-* Colores inspirados en estrellas reales:
+* patrones geométricos modulares
+* arte generativo
+* composiciones constructivistas
+* diseños editoriales abstractos
 
-  * Blanco
-  * Azul
-  * Celeste
-  * Amarillo
-  * Naranja
-  * Rosa
-  * Violeta
+La intención fue trabajar únicamente con relaciones entre formas, orientación, densidad y agrupación.
 
-La galaxia nunca permanece estática; siempre continúa evolucionando.
+## Evolución del proyecto
 
-### Traducción de los conceptos del reto
+### Versión 1
 
-#### Posibilidad
+La primera versión consistía únicamente en una retícula.
 
-La experiencia comienza con una nube de polvo cósmico formada por miles de partículas.
+Cada celda elegía aleatoriamente una figura entre cuatro posibilidades.
 
-Cada partícula realiza una caminata aleatoria, por lo que inicialmente todas las direcciones parecen igualmente posibles y aún no existe ninguna estructura reconocible.
+Todas las decisiones eran completamente independientes.
 
-**Concepto utilizado**
+Resultado:
 
-* Caminata aleatoria.
+* demasiado uniforme
+* sin lectura visual
+* no existía sensación de organización
 
-#### Tendencia
+Lo que aprendí:
 
-A medida que el sistema evoluciona, pequeñas preferencias de movimiento hacen que algunas regiones comiencen a concentrar mayor cantidad de partículas.
+La aleatoriedad uniforme produce ruido visual, pero no genera estructuras reconocibles.
 
-Estas pequeñas diferencias acumuladas generan lentamente los primeros brazos de la galaxia.
+#### Video primer versión:
 
-**Concepto utilizado**
 
-* Distribuciones no uniformes.
+### Versión 2
 
-#### Normalidad
+La segunda versión comenzó a utilizar ruido Perlin.
 
-Cuando nacen nuevas estrellas, la mayoría aparece cerca del núcleo galáctico.
+En lugar de elegir completamente al azar, las figuras empezaron a compartir cierta orientación con las vecinas.
 
-Esto genera una concentración natural de materia en el centro y una disminución progresiva hacia los extremos.
+Esto generó regiones donde aparecían pequeñas tendencias.
 
-**Concepto utilizado**
+Resultado:
 
-* Distribución normal (Gaussiana).
+* aparecieron zonas similares
+* las transiciones fueron más suaves
+* comenzó a sentirse un patrón
 
-#### Excepción
+Problema encontrado:
 
-De manera ocasional ocurre un evento poco probable.
+Todavía no existían composiciones claramente identificables.
 
-Una estrella realiza un gran desplazamiento atravesando gran parte del espacio.
+#### Video segunda versión:
 
-Ese salto permite iniciar la formación de nuevos cúmulos en regiones antes vacías.
 
-**Concepto utilizado**
+
+### Versión 3
+
+Se incorporó un segundo nivel de organización.
+
+Además de las figuras individuales comenzaron a aparecer composiciones geométricas grandes.
+
+Cada composición modifica temporalmente las reglas de las celdas que contiene.
+
+En lugar de dibujar una figura grande, el sistema reorganiza cientos de módulos pequeños.
+
+Esto permitió obtener imágenes similares a composiciones editoriales abstractas.
+
+#### Video tercera versión:
+
+
+
+### Versión final
+
+La versión final integra todos los conceptos en un mismo sistema.
+
+Las composiciones aparecen siguiendo distintas distribuciones probabilísticas mientras las figuras continúan reorganizándose continuamente.
+
+El visitante nunca dibuja directamente.
+
+Su presencia únicamente modifica las probabilidades del sistema.
+
+#### Video versión final:
+
+
+
+## Interpretación de los cinco momentos
+
+### 1. Posibilidad
+
+Al comenzar todas las figuras tienen la misma probabilidad de aparecer.
+
+No existen regiones dominantes.
+
+Cada módulo toma decisiones independientes.
+
+Visualmente se percibe un campo caótico.
+
+### 2. Tendencia
+
+El ruido Perlin comienza a generar pequeñas correlaciones entre celdas cercanas.
+
+Sin imponer un patrón fijo, algunas orientaciones empiezan a repetirse.
+
+Las pequeñas preferencias terminan construyendo regiones similares.
+
+Concepto utilizado:
+
+* Ruido Perlin.
+
+### 3. Normalidad
+
+Las composiciones principales aparecen utilizando una distribución normal.
+
+La mayoría se concentra alrededor del centro del lienzo.
+
+Esto produce una organización claramente reconocible donde la mayor parte de los eventos ocurre cerca de la media.
+
+Concepto utilizado:
+
+* Distribución normal (randomGaussian()).
+
+### 4. Excepción
+
+Aparecen eventos poco frecuentes utilizando un Lévy Flight.
+
+A diferencia de la distribución normal, algunos saltos recorren grandes distancias y generan nuevas composiciones lejos de las zonas habituales.
+
+Estas excepciones transforman progresivamente el equilibrio visual.
+
+Concepto utilizado:
 
 * Lévy Flight.
 
-#### Influencia
+### 5. Influencia
 
-La presencia del visitante modifica las probabilidades del sistema sin controlar directamente las partículas.
+El visitante nunca dibuja sobre la pantalla.
 
-Su interacción representa una perturbación gravitacional que cambia la forma en que el universo evoluciona.
+Su posición modifica las probabilidades del sistema.
 
-El sistema continúa funcionando incluso cuando no existe interacción.
+Cuando el cursor se aproxima:
 
-**Conceptos utilizados**
+* Aumenta el tamaño de las figuras cercanas
+* Incrementa su brillo
+* Acelera la aparición de nuevas composiciones
+* Modifica ligeramente la orientación dominante
 
-* Modificación dinámica de probabilidades.
-* Ruido Perlin.
-* Distribuciones de probabilidad.
+Cuando el visitante deja de interactuar, el sistema continúa funcionando por sí mismo.
 
-### Evolución del sistema
+## Conceptos de simulación utilizados
 
-La experiencia no comienza con una galaxia formada.
+La propuesta integra cuatro conceptos de la unidad:
 
-El proceso completo representa su nacimiento.
+* Caminata aleatoria (decisiones iniciales de los módulos).
+* Ruido Perlin (tendencias suaves entre regiones).
+* Distribución normal (aparición de composiciones alrededor del centro).
+* Lévy Flight (eventos excepcionales con grandes desplazamientos).
 
-#### Etapa 1 — Polvo cósmico
+Todos estos mecanismos conviven dentro de un único sistema.
 
-El universo está compuesto únicamente por pequeñas partículas con un brillo muy tenue.
+## Interacción
 
-Estas representan gas y polvo interestelar.
+La interacción no consiste en dibujar.
 
-#### Etapa 2 — Agrupación
+El cursor únicamente altera las reglas del sistema.
 
-Las partículas comienzan a concentrarse lentamente debido a las reglas probabilísticas del sistema.
+Dependiendo de la cercanía del visitante:
 
-Empiezan a aparecer regiones con mayor densidad.
+* Aumenta la probabilidad de aparición de nuevas composiciones
+* Modifica la orientación dominante
+* Incrementa el tamaño de los módulos cercanos
+* Aumenta su brillo
 
-#### Etapa 3 — Nacimiento de estrellas
+Esto hace que el sistema reaccione sin perder su autonomía.
 
-Cuando una región alcanza suficiente concentración, algunas partículas comienzan a transformarse.
+## Dificultades
 
-La transición ocurre gradualmente:
+Durante el desarrollo aparecieron varios problemas.
 
-```
-Polvo cósmico
-        ↓
-Partícula brillante
-        ↓
-Estrella joven
-        ↓
-Estrella con halo luminoso
-```
+* La primera propuesta basada en galaxias resultaba demasiado narrativa y desviaba la atención de los conceptos probabilísticos.
+* Las composiciones aparecían demasiado rápido y generaban saturación visual.
+* Fue necesario ajustar las probabilidades para que cada momento se percibiera de forma gradual.
+* Encontrar una interacción significativa fue más complejo que simplemente modificar colores o tamaños.
 
-Las estrellas no aparecen instantáneamente; evolucionan visualmente conforme aumenta su energía.
+# Uso de IA
 
-#### Etapa 4 — Formación de la galaxia
+La IA fue utilizada como apoyo para:
 
-Con el paso del tiempo aparecen:
+* Generar ideas iniciales
+* Explorar alternativas visuales
+* Resolver errores de programación
+* Proponer estructuras de código
+* Explicar conceptos matemáticos relacionados con las distribuciones
 
-* Núcleo brillante.
-* Brazos espirales.
-* Regiones de mayor concentración.
-* Nuevos cúmulos generados por eventos excepcionales.
+## Autoevaluación
 
-La galaxia nunca deja de transformarse.
-
-#### Uso del ruido Perlin
-
-El ruido Perlin se utilizará para representar procesos continuos del universo.
-
-No controlará la posición principal de las partículas, sino aspectos orgánicos como:
-
-* Movimiento suave del gas.
-* Variación del brillo de las estrellas.
-* Oscilaciones lentas de las nebulosas.
-* Sensación de respiración del sistema.
-
-Esto permitirá evitar movimientos bruscos y generar una sensación más natural.
-
-### Interacción
-
-El cursor representará una masa gravitacional temporal.
-
-Su presencia no moverá directamente las estrellas.
-
-En cambio modificará probabilidades relacionadas con:
-
-* Atracción entre partículas.
-* Formación de nuevas estrellas.
-* Intensidad del movimiento.
-* Frecuencia de eventos extraordinarios.
-
-El usuario influye en el sistema, pero nunca determina exactamente lo que ocurrirá.
-
-### Resultado esperado
-
-Se espera obtener una experiencia donde cada ejecución produzca una galaxia diferente, pero manteniendo siempre la misma identidad visual y conceptual.
-
-El visitante observará cómo estructuras complejas emergen gradualmente a partir de reglas simples y probabilísticas, comprendiendo que el azar puede generar orden cuando existen patrones que gobiernan el sistema.
+| Criterio                  |                          Cumplo                         | Evidencia                                                                                                                   |
+| ------------------------- | :-----------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------- |
+| Encargo completo          |                            ✅                            | Los cinco momentos están representados dentro del mismo sistema mediante cambios de comportamiento, no de escenas.          |
+| Simulación con intención  |                            ✅                            | Se utilizan caminata aleatoria, ruido Perlin, distribución normal y Lévy Flight.                                            |
+| Interacción significativa |                            ✅                            | El visitante modifica probabilidades, orientación, crecimiento y brillo, pero el sistema sigue funcionando sin interacción. |
+| Prototipo funcional       |                            ✅                            | El sketch corre en tiempo real, formato 9:16 y sin errores que impidan comprender la experiencia.                           |
+| Proceso documentado       | ✅ *(si completas la bitácora con capturas y versiones)* | Versiones intermedias, decisiones, dificultades, uso de IA y enlace al prototipo.                                           |
