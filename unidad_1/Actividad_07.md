@@ -45,8 +45,9 @@ Lo que aprendí:
 
 La aleatoriedad uniforme produce ruido visual, pero no genera estructuras reconocibles.
 
-#### Video primer versión:
+#### Imagen primer versión:
 
+<img width="301" height="536" alt="Captura de pantalla 2026-07-23 a la(s) 10 40 22 a m" src="https://github.com/user-attachments/assets/7bb5481f-73df-4a65-93d2-903b0f7a5040" />
 
 ### Versión 2
 
@@ -67,6 +68,7 @@ Problema encontrado:
 Todavía no existían composiciones claramente identificables.
 
 #### Video segunda versión:
+
 
 
 
@@ -216,4 +218,4 @@ La IA fue utilizada como apoyo para:
 | Simulación con intención  |                            ✅                            | Se utilizan caminata aleatoria, ruido Perlin, distribución normal y Lévy Flight.                                            |
 | Interacción significativa |                            ✅                            | El visitante modifica probabilidades, orientación, crecimiento y brillo, pero el sistema sigue funcionando sin interacción. |
 | Prototipo funcional       |                            ✅                            | El sketch corre en tiempo real, formato 9:16 y sin errores que impidan comprender la experiencia.                           |
-| Proceso documentado       | ✅ *(si completas la bitácora con capturas y versiones)* | Versiones intermedias, decisiones, dificultades, uso de IA y enlace al prototipo.                                           |
+| Proceso documentado       | ✅                  | Versiones intermedias, decisiones, dificultades, uso de IA y enlace al prototipo.                                           |
