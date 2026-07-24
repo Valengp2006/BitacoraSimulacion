@@ -201,7 +201,7 @@ Durante el desarrollo aparecieron varios problemas.
 * Fue necesario ajustar las probabilidades para que cada momento se percibiera de forma gradual.
 * Encontrar una interacción significativa fue más complejo que simplemente modificar colores o tamaños.
 
-# Uso de IA
+## Uso de IA
 
 La IA fue utilizada como apoyo para:
 
