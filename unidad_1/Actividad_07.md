@@ -103,9 +103,8 @@ Su presencia modifica las probabilidades del sistema y visualmente hay un aument
 
 <img width="388" height="692" alt="Sin título (1080 x 1920 px) (4)" src="https://github.com/user-attachments/assets/ece3bac0-1950-41e1-81e0-0993279887e4" />
 
+> [!NOTE]
 > El enunciado original define cuatro etapas continuas, donde la última agrupa "Excepción e influencia". Aquí se documentan como dos momentos separados (4 y 5) para explicar cada mecanismo con claridad, pero en el sketch ambos ocurren dentro de la misma fase final, sin corte entre ellos.
-
-## Interpretación de los cinco momentos
 
 ### 1. Posibilidad
 
