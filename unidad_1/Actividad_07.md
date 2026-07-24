@@ -8,7 +8,7 @@ En lugar de utilizar elementos reconocibles, decidí trabajar con un lenguaje vi
 
 La intención fue que el visitante percibiera cómo distintas reglas probabilísticas producen organizaciones diferentes dentro del mismo sistema visual.
 
-Esta diseñado para la zona de bienvenida del Worl Science Festival en Nueva York.
+Esta diseñado para la zona de bienvenida del World Science Festival en Nueva York.
 
 ## Referentes
 
