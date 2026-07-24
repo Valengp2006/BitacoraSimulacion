@@ -175,21 +175,6 @@ Todos estos mecanismos conviven dentro de un único sistema.
 
 La influencia del visitante combina un efecto local (proximidad del cursor a cada módulo) con uno global (proximidad del cursor al centro del lienzo, que regula el sistema completo).
 
-## Interacción
-
-La interacción no consiste en dibujar.
-
-El cursor únicamente altera las reglas del sistema.
-
-Dependiendo de la cercanía del visitante:
-
-* Aumenta la probabilidad de aparición de nuevas composiciones
-* Modifica la orientación dominante
-* Incrementa el tamaño de los módulos cercanos
-* Aumenta su brillo
-
-Esto hace que el sistema reaccione sin perder su autonomía.
-
 ## Dificultades
 
 Durante el desarrollo aparecieron varios problemas.
