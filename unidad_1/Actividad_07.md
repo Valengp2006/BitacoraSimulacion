@@ -2,11 +2,13 @@
 
 ## Idea inicial
 
-El objetivo del ejercicio era representar la incertidumbre sin ilustrarla de manera literal.
+El objetivo del ejercicio es representar la incertidumbre sin ilustrarla de manera literal.
 
 En lugar de utilizar elementos reconocibles, decidí trabajar con un lenguaje visual completamente geométrico, inspirado en composiciones abstractas, donde pequeñas figuras simples se organizan progresivamente hasta formar estructuras mayores.
 
 La intención fue que el visitante percibiera cómo distintas reglas probabilísticas producen organizaciones diferentes dentro del mismo sistema visual.
+
+Esta diseñado para la zona de bienvenida del Worl Science Festival en Nueva York.
 
 ## Referentes
 
