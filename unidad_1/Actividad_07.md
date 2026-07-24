@@ -18,10 +18,10 @@ Por esta razón decidí cambiar completamente la propuesta hacia una composició
 
 Los referentes principales fueron:
 
-* patrones geométricos modulares
-* arte generativo
-* composiciones constructivistas
-* diseños editoriales abstractos
+* Patrones geométricos modulares
+* Arte generativo
+* Composiciones constructivistas
+* Diseños editoriales abstractos
 
 La intención fue trabajar únicamente con relaciones entre formas, orientación, densidad y agrupación.
 
@@ -35,13 +35,13 @@ Cada celda elegía aleatoriamente una figura entre cuatro posibilidades.
 
 Todas las decisiones eran completamente independientes.
 
-Resultado:
+**Resultado:**
 
-* demasiado uniforme
-* sin lectura visual
-* no existía sensación de organización
+* Demasiado uniforme
+  sin lectura visual
+* No existía sensación de organización
 
-Lo que aprendí:
+**Lo que aprendí:**
 
 La aleatoriedad uniforme produce ruido visual, pero no genera estructuras reconocibles.
 
@@ -57,13 +57,13 @@ En lugar de elegir completamente al azar, las figuras empezaron a compartir cier
 
 Esto generó regiones donde aparecían pequeñas tendencias.
 
-Resultado:
+**Resultado:**
 
-* aparecieron zonas similares
-* las transiciones fueron más suaves
-* comenzó a sentirse un patrón
+* Aparecieron zonas similares
+* Las transiciones fueron más suaves
+* Comenzó a sentirse un patrón
 
-Problema encontrado:
+**Problema encontrado:**
 
 Todavía no existían composiciones claramente identificables.
 
@@ -123,7 +123,7 @@ Sin imponer un patrón fijo, algunas orientaciones empiezan a repetirse.
 
 Las pequeñas preferencias terminan construyendo regiones similares.
 
-Concepto utilizado:
+**Concepto utilizado:**
 
 * Ruido Perlin.
 
@@ -135,7 +135,7 @@ La mayoría se concentra alrededor del centro del lienzo.
 
 Esto produce una organización claramente reconocible donde la mayor parte de los eventos ocurre cerca de la media.
 
-Concepto utilizado:
+**Concepto utilizado:**
 
 * Distribución normal (randomGaussian()).
 
@@ -147,7 +147,7 @@ A diferencia de la distribución normal, algunos saltos recorren grandes distanc
 
 Estas excepciones transforman progresivamente el equilibrio visual.
 
-Concepto utilizado:
+**Concepto utilizado:**
 
 * Lévy Flight.
 
