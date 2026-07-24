@@ -103,6 +103,8 @@ Su presencia modifica las probabilidades del sistema y visualmente hay un aument
 
 <img width="388" height="692" alt="Sin título (1080 x 1920 px) (4)" src="https://github.com/user-attachments/assets/ece3bac0-1950-41e1-81e0-0993279887e4" />
 
+> El enunciado original define cuatro etapas continuas, donde la última agrupa "Excepción e influencia". Aquí se documentan como dos momentos separados (4 y 5) para explicar cada mecanismo con claridad, pero en el sketch ambos ocurren dentro de la misma fase final, sin corte entre ellos.
+
 ## Interpretación de los cinco momentos
 
 ### 1. Posibilidad
@@ -117,15 +119,13 @@ Visualmente se percibe un campo caótico.
 
 ### 2. Tendencia
 
-El ruido Perlin comienza a generar pequeñas correlaciones entre celdas cercanas.
+Se genera un campo de ruido Perlin de baja frecuencia sobre la retícula. A diferencia de un valor aleatorio independiente por celda, el ruido Perlin varía suavemente en el espacio, por lo que celdas vecinas obtienen valores parecidos y terminan compartiendo orientación.
 
-Sin imponer un patrón fijo, algunas orientaciones empiezan a repetirse.
-
-Las pequeñas preferencias terminan construyendo regiones similares.
+Este es el mecanismo **estructural** de la etapa: no se usa aquí de forma decorativa, sino para producir la correlación espacial que agrupa los módulos. El uso "orgánico" del ruido (respiración de brillo, escala, rotación) es un efecto adicional que se mantiene activo en todas las etapas, sin afectar la posición de ningún elemento.
 
 **Concepto utilizado:**
 
-* Ruido Perlin.
+- Ruido Perlin (campo de correlación espacial).
 
 ### 3. Normalidad
 
@@ -155,27 +155,25 @@ Estas excepciones transforman progresivamente el equilibrio visual.
 
 El visitante nunca dibuja sobre la pantalla.
 
-Su posición modifica las probabilidades del sistema.
+La interacción actúa en dos niveles:
 
-Cuando el cursor se aproxima:
+- **Local:** cada módulo calcula su distancia al cursor. Los que están a menos de 140px crecen ligeramente y aumentan su brillo, con una intensidad que decae con la distancia.
+- **Global:** la cercanía del cursor al centro del lienzo modula las probabilidades del sistema — aumenta la probabilidad de aparición de nuevas composiciones, acelera su crecimiento y empuja levemente la orientación dominante hacia el ángulo del cursor.
 
-* Aumenta el tamaño de las figuras cercanas
-* Incrementa su brillo
-* Acelera la aparición de nuevas composiciones
-* Modifica ligeramente la orientación dominante
-
-Cuando el visitante deja de interactuar, el sistema continúa funcionando por sí mismo.
+En ningún caso el visitante controla directamente una figura: solo altera las probabilidades y la intensidad con la que el sistema responde. Cuando deja de interactuar, el sistema continúa funcionando con sus valores base.
 
 ## Conceptos de simulación utilizados
 
 La propuesta integra cuatro conceptos de la unidad:
 
-* Caminata aleatoria (decisiones iniciales de los módulos).
-* Ruido Perlin (tendencias suaves entre regiones).
-* Distribución normal (aparición de composiciones alrededor del centro).
-* Lévy Flight (eventos excepcionales con grandes desplazamientos).
+- **Caminata aleatoria** — presente en el Lévy Flight: cada nueva composición de la Etapa de Excepción nace a partir de un paso aleatorio calculado desde la posición de la composición anterior, no de una posición completamente nueva.
+- **Ruido Perlin** — genera un campo de correlación espacial de baja frecuencia que hace que celdas cercanas compartan orientación (Etapa de Tendencia). De forma secundaria también anima brillo, escala y rotación de cada módulo para dar sensación de vida orgánica, sin controlar nunca su posición.
+- **Distribución normal** — determina dónde nacen las composiciones principales (`randomGaussian()`), concentrándolas cerca del centro del lienzo.
+- **Lévy Flight** — genera saltos poco frecuentes con distribución de cola pesada: la mayoría de los pasos son cortos, pero ocasionalmente aparece uno muy largo que crea una composición lejos de las zonas habituales.
 
 Todos estos mecanismos conviven dentro de un único sistema.
+
+La influencia del visitante combina un efecto local (proximidad del cursor a cada módulo) con uno global (proximidad del cursor al centro del lienzo, que regula el sistema completo).
 
 ## Interacción
 
@@ -203,13 +201,12 @@ Durante el desarrollo aparecieron varios problemas.
 
 ## Uso de IA
 
-La IA fue utilizada como apoyo para:
+La IA fue utilizada como apoyo, con las siguientes modificaciones concretas sobre sus propuestas:
 
-* Generar ideas iniciales
-* Explorar alternativas visuales
-* Resolver errores de programación
-* Proponer estructuras de código
-* Explicar conceptos matemáticos relacionados con las distribuciones
+- Propuso un cambio de etapas por bloques de tiempo fijos, lo reemplacé por pesos continuos mezclados con `smoothstep`, para que la transición entre momentos no se sintiera como un corte.
+- Sugirió partículas independientes para las composiciones, en su lugar implementé el sistema de dos niveles (celdas + composiciones) para que las formas grandes se construyeran a partir de módulos pequeños, como pedía el enunciado.
+- Propuso aplicar ruido Perlin también a la posición de las composiciones, lo descarté y lo limité a orientación, brillo y escala, respetando la restricción del enunciado de no usar Perlin para posición.
+- Ajusté manualmente las probabilidades de aparición de composiciones (spawn rate), que en la propuesta inicial generaban saturación visual demasiado rápido.
 
 ## Autoevaluación
 
