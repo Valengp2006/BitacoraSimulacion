@@ -85,7 +85,7 @@ Esto permitió obtener imágenes similares a composiciones editoriales abstracta
 
 #### Video tercera versión:
 
-
+<img width="388" height="692" alt="Sin título (1080 x 1920 px) (3)" src="https://github.com/user-attachments/assets/671256f4-0254-4ffc-b31b-4b98b96bbc08" />
 
 ### Versión final
 
@@ -95,11 +95,13 @@ Las composiciones aparecen siguiendo distintas distribuciones probabilísticas m
 
 El visitante nunca dibuja directamente.
 
-Su presencia únicamente modifica las probabilidades del sistema.
+Su presencia modifica las probabilidades del sistema y visualmente hay un aumento de tamaño y color.
+
+[Enlace a la aplicación en p5.js](https://editor.p5js.org/Valengp2006/sketches/8bOUuDEUu)
 
 #### Video versión final:
 
-
+<img width="388" height="692" alt="Sin título (1080 x 1920 px) (4)" src="https://github.com/user-attachments/assets/ece3bac0-1950-41e1-81e0-0993279887e4" />
 
 ## Interpretación de los cinco momentos
 
