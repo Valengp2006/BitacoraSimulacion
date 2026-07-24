@@ -69,8 +69,7 @@ Todavía no existían composiciones claramente identificables.
 
 #### Video segunda versión:
 
-
-
+<img width="390" height="690" alt="Grabación de pantalla 2026-07-23 a la(s) 10 45 48 a" src="https://github.com/user-attachments/assets/20b1f0a1-ad43-49ea-a5e6-ae1b1f6870c9" />
 
 ### Versión 3
 
