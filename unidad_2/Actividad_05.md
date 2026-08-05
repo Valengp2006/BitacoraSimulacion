@@ -83,8 +83,13 @@ Todas las partículas móviles comparten un límite de velocidad (`MAX_SPEED = 2
 | --- | --- | --- | --- |
 | La intención es clara y perceptible en el comportamiento. | 20% | 100% | 20% |
 | Los tipos, cantidades, matriz y parámetros están justificados desde la intención. | 25% | 100% | 25% |
-| Comprendo y puedo modificar el funcionamiento técnico del sistema. | 20% | 100% | 20% |
+| Comprendo y puedo modificar el funcionamiento técnico del sistema. | 20% | 94% | 18% |
 | El sistema produce variaciones con una identidad reconocible. | 15% | 100% | 15% |
 | Experimenté, comparé, seleccioné y descarté con criterios claros. | 10% | 100% | 10% |
 | Puedo distinguir y sustentar lo diseñado y lo emergente. | 10% | 100% | 10% |
-| **Total** | **100%** |  | **100%** |
+| **Total** | **100%** |  | **98%** |
+
+Nota propuesta:
+
+nota propuesta = puntaje total ÷ 20
+               = 98 / 20 = 4,9
