@@ -2,6 +2,8 @@
 
 **Sistema:** *Cicatrices* — memoria emergente en Particle Life
 
+[Enlace aplicación](https://editor.p5js.org/Valengp2006/sketches/5F-LRSGI7)
+
 ## 1. Intención
 
 > Quiero explorar la tensión entre **la memoria** y **el olvido**, y cómo el colapso no es silencioso, sino contagioso.
