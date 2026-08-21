@@ -40,8 +40,8 @@ Se evaluaron los 7 estados que componen la obra desde el panel de control para c
 El instrumento no reacciona automáticamente al audio; las fuerzas son conducidas manualmente estructurando una curva de tensión de 7 fases:
 
 * **0:00 - 0:44 (Materia oscura y corrientes):** La percusión sutil arranca. Altísima fricción, velocidad lenta. Las partículas giran lentamente revelando colores fríos.
-* **0:44 - 3:00 (Espiral y Disco de Acreción):** Entra el bajo y el *groove* principal. Se baja la fricción y aumenta radicalmente la rotación, formando el anillo incandescente.
-* **3:00 - 3:45 (Órbita Crítica y Colapso):** Tensión máxima. Se anula por completo la rotación. Se aplica succión masiva hacia el centro; las partículas desaparecen en el horizonte de eventos.
+* **0:44 - 1:52 (Espiral y Disco de Acreción):** Entra el bajo y el *groove* principal. Se baja la fricción y aumenta radicalmente la rotación, formando el anillo incandescente.
+* **1:52 - 2:15 (Órbita Crítica y Colapso):** Tensión máxima. Se anula por completo la rotación. Se aplica succión masiva hacia el centro; las partículas desaparecen en el horizonte de eventos.
 * **2:15 (El Clímax Rítmico):** ¡SUPERNOVA! Explosión e interrupción de la gravedad (repulsión instantánea) coincidiendo con la ruptura sonora.
 * **Segunda mitad de la pista:** El sistema decae automáticamente. La interpretación se vuelve libre, alternando entre las escenas 3, 4 y 5 para crear pulsos de materia según las variaciones de los sintetizadores.
 
@@ -60,10 +60,10 @@ El instrumento no reacciona automáticamente al audio; las fuerzas son conducida
 
 | Criterio | Peso | Valoración | Evidencia concreta |
 | --- | --- | --- | --- |
-| **Trazabilidad y comprensión del sistema** | 25 | 100 | Código documentado: lógica de modos en `main.js` y shaders en `createSimulation.js`. `[Enlace a tu código en GitHub]` |
-| **Verificación del algoritmo de fuerzas** | 25 | 100 | `[Enlace a grabación de pantalla probando las escenas desde el panel del LAB]` |
-| **Diseño de fuerzas e intención** | 20 | 100 | Aplicación del horizonte de eventos y la manipulación de rotación cero / gravedad masiva en la escena 6. `[Enlace a screenshot/video de la escena 6]` |
-| **Instrumento, score e interpretación** | 15 | 100 | `[Enlace al video de la interpretación final operando los controles 1-7 con LesAlpx]` |
-| **Experimentación y criterio frente a la IA** | 10 | 100 | Documentado en la sección 6 (Rechazo del control por mouse). |
+| **Trazabilidad y comprensión del sistema** | 25 | 100 | Código documentado: lógica de modos en `main.js` y shaders en `createSimulation.js`. `[https://github.com/Valengp2006/Unidad_03_simulacion]` |
+| **Verificación del algoritmo de fuerzas** | 25 | 100 | `[https://youtu.be/E5AmwCKiFI8]` |
+| **Diseño de fuerzas e intención** | 20 | 100 | Aplicación del horizonte de eventos y la manipulación de rotación cero / gravedad masiva en la escena 6.|
+| **Instrumento, score e interpretación** | 15 | 100 | `[https://youtu.be/fxjNcKm8FrQ]` |
+| **Experimentación y criterio frente a la IA** | 10 | 100 | Documentado en la sección 6. |
 | **Entrega técnica y documentación** | 5 | 100 | `[https://valengp2006.github.io/Unidad_03_simulacion/]` |
 | **Total Puntos** | **100** | **100** |  |
