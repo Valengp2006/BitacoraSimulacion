@@ -65,5 +65,5 @@ El instrumento no reacciona automáticamente al audio; las fuerzas son conducida
 | **Diseño de fuerzas e intención** | 20 | 100 | Aplicación del horizonte de eventos y la manipulación de rotación cero / gravedad masiva en la escena 6.|
 | **Instrumento, score e interpretación** | 15 | 100 | (Video modo performance)[https://youtu.be/fxjNcKm8FrQ] |
 | **Experimentación y criterio frente a la IA** | 10 | 100 | Documentado en la sección 6. |
-| **Entrega técnica y documentación** | 5 | 100 | (Documentación)[] |
+| **Entrega técnica y documentación** | 5 | 100 | (Documentación)[https://github.com/Valengp2006/BitacoraSimulacion/tree/main] |
 | **Total Puntos** | **100** | **100** |  |
