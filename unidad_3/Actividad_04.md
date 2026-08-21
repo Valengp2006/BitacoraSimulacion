@@ -60,7 +60,7 @@ El instrumento no reacciona automáticamente al audio; las fuerzas son conducida
 
 | Criterio | Peso | Valoración | Evidencia concreta |
 | --- | --- | --- | --- |
-| **Trazabilidad y comprensión del sistema** | 25 | 100 | [Código documentado: lógica de modos en `main.js` y shaders en `createSimulation.js] (https://github.com/Valengp2006/Unidad_03_simulacion) |
+| **Trazabilidad y comprensión del sistema** | 25 | 100 | [Código documentado: lógica de modos en `main.js` y shaders en createSimulation.js](https://github.com/Valengp2006/Unidad_03_simulacion) |
 | **Verificación del algoritmo de fuerzas** | 25 | 100 | [Video modo LAB](https://youtu.be/E5AmwCKiFI8) |
 | **Diseño de fuerzas e intención** | 20 | 100 | Aplicación del horizonte de eventos y la manipulación de rotación cero / gravedad masiva en la escena 6.|
 | **Instrumento, score e interpretación** | 15 | 100 | [Video modo performance](https://youtu.be/fxjNcKm8FrQ) |
