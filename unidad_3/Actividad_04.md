@@ -49,12 +49,12 @@ El instrumento no reacciona automáticamente al audio; las fuerzas son conducida
 
 * **Prompts Relevantes:** "Quiero que se vea más similar al referente... que parezca más un agujero negro", "Las etapas de la 5 a la 7 se ven mal, no tienen lógica, además supernova sigue sin funcionar", "Recuerda que finalmente quedaron 7 estados, debe verse tanto en el modo lab como performance, y en performance debe eliminarse el texto".
 * **Cambios Aceptados & Correcciones:**
-* Se diseñó una termodinámica visual de 4 umbrales de color y se integraron transiciones asintóticas para 7 escenas.
-* Se corrigieron errores de despliegue (build fallido) en *GitHub Actions* al detectar la ausencia de funciones matemáticas como `smoothstep` en las importaciones de TSL.
+ * Se diseñó una termodinámica visual de 4 umbrales de color y se integraron transiciones asintóticas para 7 escenas.
+ * Se corrigieron errores de despliegue (build fallido) en *GitHub Actions* al detectar la ausencia de funciones matemáticas como `smoothstep` en las importaciones de TSL.
 
 * **Decisiones de Rechazo (Criterio Propio):** La IA sugirió una funcionalidad donde la paleta de color y el campo gravitacional seguían el movimiento y las coordenadas del cursor del mouse.
-* *Decisión:* Se rechazó la propuesta ejecutando un *rollback* de los archivos.
-* *Justificación:* Esta interacción desvirtuaba la obra, acercándola de nuevo al ejercicio genérico base de la clase y destruyendo el concepto gravitacional de la Singularidad centralizada. El comportamiento debe emerger de la propia dinámica, no de "pintar" arrastrando el mouse.
+ * *Decisión:* Se rechazó la propuesta ejecutando un *rollback* de los archivos.
+ * *Justificación:* Esta interacción desvirtuaba la obra, acercándola de nuevo al ejercicio genérico base de la clase y destruyendo el concepto gravitacional de la Singularidad centralizada. El comportamiento debe emerger de la propia dinámica, no de "pintar" arrastrando el mouse.
 
 ### 7. Autoevaluación Ponderada
 
