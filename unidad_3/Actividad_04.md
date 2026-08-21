@@ -2,7 +2,7 @@
 
 ### 1. Instrumento Funcional y Publicado
 
-* **URL Pública:** `[https://valengp2006.github.io/Unidad_03_simulacion/]`
+* **URL Pública:** https://valengp2006.github.io/Unidad_03_simulacion/
 * **Modos implementados:**
   * **Modo LAB:** Un panel de diagnóstico que permite aislar las fuerzas mediante sliders interactivos y probar los 7 estados gravitacionales base para verificar la matemática del sistema.
   * **Modo PERFORMANCE:** Un lienzo puramente visual, donde se ocultan todos los elementos de la interfaz (textos, HUD, cursor). Se activa presionando `P`, cediendo el control total a las transiciones orgánicas operadas por el teclado.
