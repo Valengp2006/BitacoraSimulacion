@@ -30,9 +30,9 @@ $$F_{radial} = \left( \frac{\vec{d}_{normalizada}}{distancia^2} \right) \cdot ra
 * **Pruebas de Estados (Modo LAB):**
 Se evaluaron los 7 estados que componen la obra desde el panel de control para comprobar los balances de fricción y atracción. Al presionar los botones del panel, los sliders actualizan sus valores revelando las tensiones de la materia (ej. *Disco de Acreción* opera con alta rotación y baja fricción).
 * **Prueba Específica (El Clímax - Escena 7 Supernova):**
-* *Predicción inicial:* Al presionar la tecla 7, la interpolación asintótica (`lerp`) llevaría el valor de atracción (+15) a repulsión masiva (-40) progresivamente, creando una explosión expansiva.
-* *Análisis del resultado:* La interpolación matemática arruinó el efecto. Al bajar lentamente de manera progresiva (pasando de 15 a 10, a 5...), la gravedad seguía atrayendo y el temporizador cortaba la escena antes de cruzar hacia la repulsión negativa.
-* *Modificación:* Se rompió deliberadamente la interpolación en el código exclusivamente para la Escena 7. Se programó un *bypass* que asigna $-40.0$ al `radialStrength` y $0.0$ al `dragCoefficient` en un solo frame, logrando un estallido masivo y violento comprobable en tiempo real.
+ * *Predicción inicial:* Al presionar la tecla 7, la interpolación asintótica (`lerp`) llevaría el valor de atracción (+15) a repulsión masiva (-40) progresivamente, creando una explosión expansiva.
+ * *Análisis del resultado:* La interpolación matemática arruinó el efecto. Al bajar lentamente de manera progresiva (pasando de 15 a 10, a 5...), la gravedad seguía atrayendo y el temporizador cortaba la escena antes de cruzar hacia la repulsión negativa.
+ * *Modificación:* Se rompió deliberadamente la interpolación en el código exclusivamente para la Escena 7. Se programó un *bypass* que asigna $-40.0$ al `radialStrength` y $0.0$ al `dragCoefficient` en un solo frame, logrando un estallido masivo y violento comprobable en tiempo real.
 
 
 ### 5. Score Visual (Interpretación de *LesAlpx* de Floating Points)
