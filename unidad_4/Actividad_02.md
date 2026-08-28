@@ -29,7 +29,7 @@ El audio no es decorativo; está anclado matemáticamente a la fase ($\theta_i$)
 | Dimensión | Tipo de Interacción | Mecanismo Técnico | Impacto en la Experiencia (Narrativa) |
 |---|---|---|---|
 | Global | Performática Invisible | Posición del cursor en el eje Y (Altura) y eje X (Marea). | Modifica en tiempo real la variable K (Acoplamiento): Llevar el cursor arriba intensifica las corrientes marinas, obligando a las medusas a sincronizarse. Llevarlo abajo las aísla en su propio ritmo. El eje X altera el tempo (dt). |
-| Individual | Performática Focalizada | Clic directo o tap sobre la campana de una medusa específica. | Inyección de Perturbación: Rompe la fase del agente llevándola a un random($TWO_PI$) y altera su posición en el espacio. El agente sufre un "choque eléctrico" temporal, acelerando su ritmo e iluminándose en blanco puro. |
+| Individual | Performática Focalizada | Clic directo o tap sobre la campana de una medusa específica. | Inyección de Perturbación: Rompe la fase del agente llevándola a un random y altera su posición en el espacio. El agente sufre un "choque eléctrico" temporal, acelerando su ritmo e iluminándose en blanco puro. |
 | Colectiva | Respuesta del Sistema | Algoritmo de Kuramoto recalculando el parámetro de orden R. | El espectador observa cómo el colectivo reacciona a la perturbación individual: las demás medusas absorben el impacto, se desestabilizan levemente y, mediante sutiles ajustes, arrastran al "agente rebelde" de vuelta a la marea común. |
 
 ## 5. Indicadores de Estado Colectivo (Comunicación Perceptible)
