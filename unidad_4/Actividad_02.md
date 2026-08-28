@@ -2,43 +2,43 @@
 
 ## 1. Declaración Conceptual (El Porqué)
 
-La obra es una instalación audiovisual generativa e interactiva que utiliza la metáfora de un ecosistema marino abisal para explorar los límites entre el caos individual y el orden colectivo. Inspirada en los principios de sincronización espontánea y gobernada matemáticamente por la Ecuación de Kuramoto, la experiencia sitúa al espectador frente a un cardumen de 8 medusas bioluminiscentes.
+La obra es una instalación audiovisual generativa e interactiva que utiliza la metáfora de un ecosistema marino abisal para explorar los límites entre el caos individual y el orden colectivo. Inspirada en los principios de sincronización espontánea y gobernada matemáticamente por la Ecuación de Kuramoto, la experiencia sitúa al espectador frente a un cardumen de 8 medusas bioluminiscentes artificiales.
 
 En la naturaleza, la sincronización es una herramienta de supervivencia; en esta pieza, se convierte en un lenguaje poético. La obra plantea una pregunta al participante: ¿Somos observadores pasivos de las corrientes o agentes capaces de alterar la armonía del ecosistema?
 
 ## 2. Estética Visual y Personalidades Orgánicas
 
-Se abandona la rigidez de los gráficos de laboratorio para adoptar un diseño biomórfico y minimalista. El lienzo simula agua profunda mediante un efecto de arrastre acumulativo (motion blur), dejando estelas de luz que representan la memoria del movimiento.
+Se abandona la rigidez de los gráficos de laboratorio para adoptar un diseño biomórfico y minimalista. El lienzo simula agua profunda mediante un efecto de arrastre acumulativo (*motion blur*), dejando estelas de luz que representan la memoria del movimiento.
 
-Para cumplir con el requisito de diversidad, los 8 agentes se dividen en 4 Personalidades Audiovisuales (2 agentes por categoría), cuyas morfologías se asocian directamente a su comportamiento dinámico:
+Para cumplir con el requisito de diversidad, los 8 agentes se dividen en 4 Personalidades Audiovisuales (2 agentes por categoría), cuyas morfologías y dinámicas internas se asocian directamente a su comportamiento:
 
-1. **Aurelia Neón (Cian):** Medusas esbeltas de nado ágil, con un paraguas translúcido y 6 tentáculos largos que ondulan rápidamente. Representan las frecuencias más altas y nerviosas del sistema.
-2. **Batisfera Coral (Magenta):** Criaturas densas, de gran escala y 4 tentáculos gruesos. Su pulso es pesado, lento y profundo; actúan como los "anclajes" rítmicos del cardumen.
-3. **Cianea Eléctrica (Amarillo Áureo):** Organismos pequeños y compactos con 8 tentáculos filamentosos. Su bioluminiscencia es nítida e incisiva, ideal para notar pequeños desfases.
-4. **Velella Violeta (Verde Esmeralda/Violeta):** Entidades de tamaño medio con 5 tentáculos en espiral, caracterizadas por un patrón de nado flotante e impredecible.
+1. **Aurelia Neón (Cian):** Medusas con frecuencias altas y nerviosas ($\omega = 0.07$), configuradas para liderar los pulsos rápidos del sistema.
+2. **Batisfera Coral (Magenta):** Criaturas densas de gran escala y frecuencia lenta ($\omega = 0.02$), que actúan como los anclajes rítmicos del cardumen.
+3. **Cianea Eléctrica (Amarillo Áureo):** Organismos de velocidad intermedia ($\omega = 0.05$) con una bioluminiscencia nítida.
+4. **Velella Violeta (Verde Esmeralda/Violeta):** Entidades de comportamiento flotante equilibrado ($\omega = 0.03$).
 
 ## 3. Paisaje Sonoro Subacuático (Comportamiento Vinculado)
 
-El audio no es decorativo; está anclado matemáticamente a la fase ($\theta_i$) de cada agente. Cada vez que una medusa completa un ciclo físico de contracción (cuando su fase cruza el origen 0), dispara un pulso sonoro.
+El audio no es decorativo; está anclado matemáticamente a la fase de cada agente mediante la síntesis polifónica de Tone.js. Cada vez que una medusa completa un ciclo físico de contracción (detectado por su cruce de fase), dispara un pulso tonal limpio.
 
-- **Evitación de la Disonancia:** Para que la experiencia sea inmersiva incluso en el Caos, se utiliza una Escala Pentatónica Menor de La. En estado de desorden, suena como una textura ambiental texturizada (música ambient abstracta). Al sincronizarse, muta orgánicamente en un pulso rítmico minimalista y unísono.
-- **Filtros Hidrodinámicos:** El audio pasa por un filtro de paso bajo (LowPass) que recorta los brillos excesivos, emulando la acústica amortiguada del fondo del océano.
+* **Escala Pentatónica Menor de La:** Las frecuencias se distribuyen armónicamente para que, incluso en estados de desorden total, el resultado funcione como una textura ambiental texturizada que muta orgánicamente hacia un pulso minimalista y unísono durante la sincronización.
+* **Estabilidad Polifónica:** Se integra un umbral de seguridad (*debounce*) y control de polifonía para asegurar que la interacción en vivo mantenga la claridad acústica sin saturar las voces del sistema.
 
 ## 4. Matriz de Interacción Performativa y Perturbación
 
 | Dimensión | Tipo de Interacción | Mecanismo Técnico | Impacto en la Experiencia (Narrativa) |
-|---|---|---|---|
-| Global | Performática Invisible | Posición del cursor en el eje Y (Altura) y eje X (Marea). | Modifica en tiempo real la variable K (Acoplamiento): Llevar el cursor arriba intensifica las corrientes marinas, obligando a las medusas a sincronizarse. Llevarlo abajo las aísla en su propio ritmo. El eje X altera el tempo (dt). |
-| Individual | Performática Focalizada | Clic directo o tap sobre la campana de una medusa específica. | Inyección de Perturbación: Rompe la fase del agente llevándola a un random y altera su posición en el espacio. El agente sufre un "choque eléctrico" temporal, acelerando su ritmo e iluminándose en blanco puro. |
-| Colectiva | Respuesta del Sistema | Algoritmo de Kuramoto recalculando el parámetro de orden R. | El espectador observa cómo el colectivo reacciona a la perturbación individual: las demás medusas absorben el impacto, se desestabilizan levemente y, mediante sutiles ajustes, arrastran al "agente rebelde" de vuelta a la marea común. |
+| --- | --- | --- | --- |
+| Global (Tempo y Acoplamiento) | Movimiento del cursor en ejes X (Tempo/dt) e Y (Acoplamiento/K) con interpolación de inercia (`lerp`). | Modifica gradualmente la variable de acoplamiento $K$ y la escala temporal $dt$. Los cambios no son abruptos, permitiendo observar la transición orgánica del sistema. |  |
+| Individual (Perturbación Lumínica) | Proximidad del cursor respecto a las coordenadas espaciales de cada agente. | El cursor actúa como una linterna de profundidad: al acercarse a una medusa, su bioluminiscencia (halo y núcleo) se intensifica de forma reactiva sin alterar violentamente su fase matemática. |  |
+| Colectiva (Navegación Orgánica) | Desacoplamiento entre la fase interna de Kuramoto (impulso/velocidad) y vectores de ruido autónomo (Perlin Noise). | Permite que las medusas mantengan trayectorias de nado libres y naturales en el espacio toroidal, evitando que todas se muevan de forma idéntica al sincronizarse. |  |
 
 ## 5. Indicadores de Estado Colectivo (Comunicación Perceptible)
 
-El espectador puede identificar la salud y cohesión del ecosistema a través de tres niveles calculados mediante el parámetro de orden R (donde 0 es caos absoluto y 1 es sincronía perfecta):
+El espectador puede identificar la salud y cohesión del ecosistema mediante la retroalimentación visual en tiempo real y la interfaz de control en pantalla (HUD), reconociendo las transiciones entre:
 
-1. **Corrientes Dispersas (Desorden - R < 0.35):** Las luces parpadean de forma caótica en distintas zonas del lienzo. El sonido es una textura aleatoria desarticulada. Evoca soledad y aislamiento.
-2. **Marea Fluida (Organización Parcial - 0.35 ≤ R < 0.82):** Se empiezan a formar pequeños subgrupos de medusas que contraen sus cuerpos al mismo tiempo. El sonido empieza a ganar un sentido del compás reconocible.
-3. **Resonancia Abisal (Organización Estable - R ≥ 0.82):** Todo el cardumen pulsa, brilla y canta exactamente al mismo compás. Para hacer este estado plenamente perceptible, todo el fondo del lienzo respira con un sutil resplandor cian reactivo, y el volumen armónico alcanza su punto máximo, envolviendo al usuario en una atmósfera hipnótica.
+1. **Corrientes Dispersas ($K \approx 0$):** Movimiento independiente y caótico de las medusas en el espacio, acompañado por una textura sonora dispersa.
+2. **Marea Fluida (Organización Parcial):** Aparición progresiva de subgrupos que contraen sus cuerpos de forma coordinada gracias a la inercia del acoplamiento.
+3. **Resonancia Abisal ($K \ge 2.0$):** El cardumen alinea sus pulsos y velocidades, generando un clímax sonoro armónico y un comportamiento unificado en la corriente.
 
 ### Moodboard:
 
