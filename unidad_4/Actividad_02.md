@@ -12,17 +12,17 @@ Se abandona la rigidez de los gráficos de laboratorio para adoptar un diseño b
 
 Para cumplir con el requisito de diversidad, los 8 agentes se dividen en 4 Personalidades Audiovisuales (2 agentes por categoría), cuyas morfologías se asocian directamente a su comportamiento dinámico:
 
-   **1. Aurelia Neón (Cian):** Medusas esbeltas de nado ágil, con un paraguas translúcido y 6 tentáculos largos que ondulan rápidamente. Representan las frecuencias más altas y nerviosas del sistema.
-   **2. Batisfera Coral (Magenta):** Criaturas densas, de gran escala y 4 tentáculos gruesos. Su pulso es pesado, lento y profundo; actúan como los "anclajes" rítmicos del cardumen.
-   **3. Cianea Eléctrica (Amarillo Áureo):** Organismos pequeños y compactos con 8 tentáculos filamentosos. Su bioluminiscencia es nítida e incisiva, ideal para notar pequeños desfases.
-   **4. Velella Violeta (Verde Esmeralda/Violeta):** Entidades de tamaño medio con 5 tentáculos en espiral, caracterizadas por un patrón de nado flotante e impredecible.
+1. **Aurelia Neón (Cian):** Medusas esbeltas de nado ágil, con un paraguas translúcido y 6 tentáculos largos que ondulan rápidamente. Representan las frecuencias más altas y nerviosas del sistema.
+2. **Batisfera Coral (Magenta):** Criaturas densas, de gran escala y 4 tentáculos gruesos. Su pulso es pesado, lento y profundo; actúan como los "anclajes" rítmicos del cardumen.
+3. **Cianea Eléctrica (Amarillo Áureo):** Organismos pequeños y compactos con 8 tentáculos filamentosos. Su bioluminiscencia es nítida e incisiva, ideal para notar pequeños desfases.
+4. **Velella Violeta (Verde Esmeralda/Violeta):** Entidades de tamaño medio con 5 tentáculos en espiral, caracterizadas por un patrón de nado flotante e impredecible.
 
 ## 3. Paisaje Sonoro Subacuático (Comportamiento Vinculado)
 
 El audio no es decorativo; está anclado matemáticamente a la fase ($\theta_i$) de cada agente. Cada vez que una medusa completa un ciclo físico de contracción (cuando su fase cruza el origen 0), dispara un pulso sonoro.
 
-* **Evitación de la Disonancia:** Para que la experiencia sea inmersiva incluso en el Caos, se utiliza una Escala Pentatónica Menor de La. En estado de desorden, suena como una textura ambiental texturizada (música ambient abstracta). Al sincronizarse, muta orgánicamente en un pulso rítmico minimalista y unísono.
-* **Filtros Hidrodinámicos:** El audio pasa por un filtro de paso bajo (LowPass) que recorta los brillos excesivos, emulando la acústica amortiguada del fondo del océano.
+- **Evitación de la Disonancia:** Para que la experiencia sea inmersiva incluso en el Caos, se utiliza una Escala Pentatónica Menor de La. En estado de desorden, suena como una textura ambiental texturizada (música ambient abstracta). Al sincronizarse, muta orgánicamente en un pulso rítmico minimalista y unísono.
+- **Filtros Hidrodinámicos:** El audio pasa por un filtro de paso bajo (LowPass) que recorta los brillos excesivos, emulando la acústica amortiguada del fondo del océano.
 
 ## 4. Matriz de Interacción Performativa y Perturbación
 
@@ -36,9 +36,9 @@ El audio no es decorativo; está anclado matemáticamente a la fase ($\theta_i$)
 
 El espectador puede identificar la salud y cohesión del ecosistema a través de tres niveles calculados mediante el parámetro de orden R (donde 0 es caos absoluto y 1 es sincronía perfecta):
 
-   1. **Corrientes Dispersas (Desorden - R < 0.35):** Las luces parpadean de forma caótica en distintas zonas del lienzo. El sonido es una textura aleatoria desarticulada. Evoca soledad y aislamiento.
-   2. **Marea Fluida (Organización Parcial - 0.35 ≤ R < 0.82):** Se empiezan a formar pequeños subgrupos de medusas que contraen sus cuerpos al mismo tiempo. El sonido empieza a ganar un sentido del compás reconocible.
-   3. **Resonancia Abisal (Organización Estable - R ≥ 0.82):** Todo el cardumen pulsa, brilla y canta exactamente al mismo compás. Para hacer este estado plenamente perceptible, todo el fondo del lienzo respira con un sutil resplandor cian reactivo, y el volumen armónico alcanza su punto máximo, envolviendo al usuario en una atmósfera hipnótica.
+1. **Corrientes Dispersas (Desorden - R < 0.35):** Las luces parpadean de forma caótica en distintas zonas del lienzo. El sonido es una textura aleatoria desarticulada. Evoca soledad y aislamiento.
+2. **Marea Fluida (Organización Parcial - 0.35 ≤ R < 0.82):** Se empiezan a formar pequeños subgrupos de medusas que contraen sus cuerpos al mismo tiempo. El sonido empieza a ganar un sentido del compás reconocible.
+3. **Resonancia Abisal (Organización Estable - R ≥ 0.82):** Todo el cardumen pulsa, brilla y canta exactamente al mismo compás. Para hacer este estado plenamente perceptible, todo el fondo del lienzo respira con un sutil resplandor cian reactivo, y el volumen armónico alcanza su punto máximo, envolviendo al usuario en una atmósfera hipnótica.
 
 ### Moodboard:
 
