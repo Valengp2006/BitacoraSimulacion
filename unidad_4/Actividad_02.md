@@ -28,11 +28,11 @@ El audio no es decorativo; está anclado matemáticamente a la fase de cada agen
 
 ## 4. Matriz de Interacción Performativa y Perturbación
 
-| Dimensión | Tipo de Interacción | Mecanismo Técnico | Impacto en la Experiencia (Narrativa) |
-| --- | --- | --- | --- |
-| Global (Tempo y Acoplamiento) | Movimiento del cursor en ejes X (Tempo/dt) e Y (Acoplamiento/K) con interpolación de inercia (`lerp`). | Modifica gradualmente la variable de acoplamiento $K$ y la escala temporal $dt$. Los cambios no son abruptos, permitiendo observar la transición orgánica del sistema. |  |
-| Individual (Perturbación Lumínica) | Proximidad del cursor respecto a las coordenadas espaciales de cada agente. | El cursor actúa como una linterna de profundidad: al acercarse a una medusa, su bioluminiscencia (halo y núcleo) se intensifica de forma reactiva sin alterar violentamente su fase matemática. |  |
-| Colectiva (Navegación Orgánica) | Desacoplamiento entre la fase interna de Kuramoto (impulso/velocidad) y vectores de ruido autónomo (Perlin Noise). | Permite que las medusas mantengan trayectorias de nado libres y naturales en el espacio toroidal, evitando que todas se muevan de forma idéntica al sincronizarse. |  |
+| Dimensión | Tipo de Interacción | Mecanismo Técnico | 
+| --- | --- | --- | 
+| Global (Tempo y Acoplamiento) | Movimiento del cursor en ejes X (Tempo/dt) e Y (Acoplamiento/K) con interpolación de inercia (`lerp`). | Modifica gradualmente la variable de acoplamiento $K$ y la escala temporal $dt$. Los cambios no son abruptos, permitiendo observar la transición orgánica del sistema. | 
+| Individual (Perturbación Lumínica) | Proximidad del cursor respecto a las coordenadas espaciales de cada agente. | El cursor actúa como una linterna de profundidad: al acercarse a una medusa, su bioluminiscencia (halo y núcleo) se intensifica de forma reactiva sin alterar violentamente su fase matemática. | 
+| Colectiva (Navegación Orgánica) | Desacoplamiento entre la fase interna de Kuramoto (impulso/velocidad) y vectores de ruido autónomo (Perlin Noise). | Permite que las medusas mantengan trayectorias de nado libres y naturales en el espacio toroidal, evitando que todas se muevan de forma idéntica al sincronizarse. |
 
 ## 5. Indicadores de Estado Colectivo (Comunicación Perceptible)
 
