@@ -1,5 +1,7 @@
 # Concepto de diseño
 
+[URL proyecto](https://editor.p5js.org/Valengp2006/sketches/dYepW5VNu)
+
 ## 1. Declaración Conceptual (El Porqué)
 
 La obra es una instalación audiovisual generativa e interactiva que utiliza la metáfora de un ecosistema marino abisal para explorar los límites entre el caos individual y el orden colectivo. Inspirada en los principios de sincronización espontánea y gobernada matemáticamente por la Ecuación de Kuramoto, la experiencia sitúa al espectador frente a un cardumen de 8 medusas bioluminiscentes artificiales.
@@ -48,4 +50,5 @@ El espectador puede identificar la salud y cohesión del ecosistema mediante la 
 <img width="378" height="676" alt="WhatsApp Image 2026-08-26 at 09 16 08" src="https://github.com/user-attachments/assets/384d586d-f8a6-4835-9e4d-aa7bcb907ce4" />
 <img width="384" height="702" alt="WhatsApp Image 2026-08-26 at 09 15 55" src="https://github.com/user-attachments/assets/36848936-2adf-4a61-ba2f-e331ce1cf99a" />
 <img width="388" height="556" alt="WhatsApp Image 2026-08-26 at 09 15 44" src="https://github.com/user-attachments/assets/3196e1ae-9ed7-449d-bca5-ba836f936d7c" />
+
 
