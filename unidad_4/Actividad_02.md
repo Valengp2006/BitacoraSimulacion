@@ -42,7 +42,7 @@ El espectador puede identificar la salud y cohesión del ecosistema mediante la 
 2. **Marea Fluida (Organización Parcial):** Aparición progresiva de subgrupos que contraen sus cuerpos de forma coordinada gracias a la inercia del acoplamiento.
 3. **Resonancia Abisal ($K \ge 2.0$):** El cardumen alinea sus pulsos y velocidades, generando un clímax sonoro armónico y un comportamiento unificado en la corriente.
 
-### Moodboard:
+# Moodboard:
 
 <img width="392" height="782" alt="WhatsApp Image 2026-08-26 at 09 16 56" src="https://github.com/user-attachments/assets/9dc38c38-0caa-46ee-9b82-f7cd021b7048" />
 <img width="394" height="824" alt="WhatsApp Image 2026-08-26 at 09 16 43" src="https://github.com/user-attachments/assets/a547e8b4-ae08-4d0e-851a-fabd24a412e4" />
@@ -51,4 +51,13 @@ El espectador puede identificar la salud y cohesión del ecosistema mediante la 
 <img width="384" height="702" alt="WhatsApp Image 2026-08-26 at 09 15 55" src="https://github.com/user-attachments/assets/36848936-2adf-4a61-ba2f-e331ce1cf99a" />
 <img width="388" height="556" alt="WhatsApp Image 2026-08-26 at 09 15 44" src="https://github.com/user-attachments/assets/3196e1ae-9ed7-449d-bca5-ba836f936d7c" />
 
+# Autoevalucación
 
+| Criterio                                                          |   Puntaje | Autoevaluación                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ----------------------------------------------------------------- | --------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Cumplimiento de los requisitos mínimos de la unidad**        | **25/25** |  *Abismo Colectivo* es una experiencia audiovisual interactiva basada en el modelo de Kuramoto, cuenta con una población de agentes, permite intervenir sobre el sistema y presenta visual y sonoramente los cambios entre diferentes estados de organización.                                                                                                                                |
+| **2. Comprensión de las variables del modelo de Kuramoto**        | **25/25** | Puedo identificar las principales variables utilizadas en el modelo, las cuales son: La fase `fase` representa el estado de cada oscilador; `omega` corresponde a su frecuencia natural; `K` controla la fuerza de acoplamiento entre los agentes; `N` representa el número total de agentes y `dt` controla la escala temporal de la evolución del sistema.                                                                                                                  |
+| **3. Relación entre las variables y el comportamiento observado** | **25/25** | Cada medusa comienza con una fase y una frecuencia propias, pero su fase se modifica según la diferencia con las fases de las demás. Al aumentar `K`, la influencia entre los agentes aumenta y se favorece la sincronización. Estas fases también controlan elementos visuales como la respiración y elementos sonoros como el momento en que cada medusa produce un sonido. |
+| **4. Cumplimiento de los objetivos de la unidad**                 | **25/25** | El proyecto integra el modelo de Kuramoto dentro de una experiencia audiovisual interactiva y performativa. El sistema permite observar y modificar la transición entre desorden, organización parcial y sincronización, utilizando el comportamiento matemático como base para construir una experiencia visual y sonora.                                                                            |
+
+**Nota autoevaluación:** 5
