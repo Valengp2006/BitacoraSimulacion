@@ -1,5 +1,7 @@
 # Concepto de diseño
 
+**Nota de cambio:** explorar la posibilidad de que las particulas formen el tetxo de las diapositivas y despues de un tiempo pase a generar una figura con una transicion llamativa, mantiendo una tecla o boton que permita cambiar entre texto e imagen si es necesario, la figura podria ser una escultura representativa, la cual va cambiando representando el tema y manteniendo la linea narrativa de la historia; la transición de un slide a otro debe ser fluida y bidireccional, manteniendo el sentido sin importar la dirección en la que se paso de slide.
+
 ## Principio transversal: nunca hay "reset", solo reinterpolación de parámetros
 
 La decisión de fondo: el sistema es **una sola simulación continua** que corre de principio a fin de los 13 slides. Cada slide no dispara una animación nueva desde cero — define un **estado objetivo** (número de clusters, fuerzas de atracción, grosor/opacidad de aristas, posición de retiro si hay foto) y el motor de fuerzas interpola suavemente hacia ese estado cuando cambias de slide (adelante o atrás).
