@@ -34,4 +34,4 @@ La decisión de fondo: el sistema es **una sola simulación continua** que corre
 
 ## Nota de ritmo
 
-Duración sugerida de transición: 1.5–2.5s con easing (nunca instantáneo, nunca tan largo que compita con quien habla), y micro-movimiento idle constante incluso sin cambio de slide, para que el grafo se sienta vivo sin robar atención. Esto es navegación 100% manual (teclado/táctil), así que no hay timing de voz que sincronizar — el ritmo lo pone quien presenta.
+Duración de transición: 1.5–2.5s con easing (nunca instantáneo, nunca tan largo que compita con quien habla), y micro-movimiento idle constante incluso sin cambio de slide, para que el grafo se sienta vivo sin robar atención.
