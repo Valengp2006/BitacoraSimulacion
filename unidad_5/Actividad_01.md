@@ -22,7 +22,7 @@ La decisión de fondo: el sistema es **una sola simulación continua** que corre
 
 ## Acto 3 — Relevo (10–12): recategorización, no solo reconexión
 
-- Aquí hay un cambio de gramática que hay que hacer explícito: pasas de "3 clusters institucionales" a "2 especies generacionales". Eso no puede ser un salto silencioso — la transición 9→10 debe mostrarse como una **recomposición visible**: los nodos existentes migran y se reetiquetan (cambio de tamaño/forma/temperatura de color) en vivo, no aparecen nodos nuevos de la nada.
+- Aquí hay un cambio de gramática más explícito: pasar de "3 clusters institucionales" a "2 especies generacionales". No puede ser solo un salto silencioso — la transición 9→10 debe mostrarse como una **recomposición visible**: los nodos existentes migran y se reetiquetan (cambio de tamaño/forma/temperatura de color) en vivo, no aparecen nodos nuevos de la nada.
 - **Por qué:** si los nodos de la triada simplemente desaparecieran y aparecieran nodos "de relevo" nuevos, estarías narrando sustitución. Migrar los *mismos* nodos a una nueva clasificación argumenta que las mismas personas/instituciones que construyeron confianza en el Acto 2 son las que ahora se organizan en generaciones que se entretejen — continuidad de identidad, cambio de rol.
 - **10, 11** (sin foto): máxima actividad — aristas cruzando entre especies, mayor protagonismo visual del grafo porque es el clímax conceptual de la charla.
 - **12** (foto): retiro, pero el entretejido ya no se separa de nuevo — a diferencia de los actos 1–2, aquí el retiro conserva el cruce entre especies visible en el marco, porque ya no hay vuelta atrás a la separación.
