@@ -9,14 +9,11 @@ Para responder a la pregunta fundamental de la unidad (*¿cómo una estructura d
 *   **Innovación en la Interacción (Toggle Texto ↔ Escultura):** Las partículas forman inicialmente el texto legible de los titulares de las diapositivas. Tras la intervención del orador o mediante el uso de un disparador manual (**Tecla T**), el enjambre se libera del control tipográfico mediante una transición fluida y llamativa para cohesionarse en una **escultura paramétrica tridimensional** representativa del tema de ese slide. Esta dualidad demuestra que una misma materia prima puede modularse como lenguaje explícito o abstracción discursiva.
 *   **Transiciones Fluidas y Bidireccionales:** Toda transición (entre estados de un mismo slide o al navegar entre diapositivas) es completamente simétrica. Si el orador retrocede para retomar una idea del cliente, las fuerzas se recalculan de inmediato hacia los objetivos previos sin romper la inercia física de los nodos, manteniendo la coherencia narrativa en cualquier dirección.
 
----
-
 ## Principio Transversal: Simulación Continua sin Reset
 La decisión técnica y conceptual de fondo es que **el sistema es una sola simulación viva que corre de principio a fin a lo largo de los 13 slides**. Ningún cambio de diapositiva destruye el entorno para iniciar una animación desde cero; cada una define un *estado objetivo* de parámetros físicos (coordenadas de atracción, número de clústeres, coeficientes de fricción o grosor de aristas) y el motor de fuerzas interpola suavemente los vectores hacia ese nuevo estado.
 
 *   **Justificación Conceptual:** Si el grafo se reiniciara en cada slide, el código estaría ilustrando *sustitución* (el borrado del pasado para dar paso a lo nuevo). Al forzar la reinterpolación continua, el sistema "recuerda" su estado anterior y arrastra su trayectoria mientras muta. Esto encarna el concepto de **relevo**: la nueva generación no borra a la anterior; la hereda, interactúa con ella y la transforma en tiempo real.
 
----
 
 ## La Gramática Visual del Discurso (Arco en 4 Actos)
 
@@ -46,3 +43,12 @@ Este acto representa el clímax narrativo y conceptual de la presentación MICE,
 El cierre de la conferencia demanda una resolución estructural contundente alineada con el llamado a la acción.
 *   **La Estructuración del Caos:** Es la única transición de toda la experiencia que cambia por completo la naturaleza de las leyes físicas del código. Las partículas abandonan el movimiento fluido libre de atracción/repulsión orgánica y las fuerzas de turbulencia Perlin. Los vectores de los 1,800 nodos ejecutan un mapeo lineal directo hacia coordenadas espaciales fijas y simétricas, transformando el enjambre en una **grilla ortogonal perspectivada (portal de líneas de fuga)**.
 *   **Justificación Conceptual:** El final de la charla no es una idea abierta ni caótica; es un llamado concreto a la acción interactiva a través de un código QR. Que el caos fluido de la simulación "resuelva" en un orden ortogonal y cristalino argumenta físicamente que el relevo generacional, cuando se teje de forma correcta, produce estructura, sistema y base sólida aprovechable para el futuro del liderazgo. El portal enmarca simétricamente el QR de cierre sin competir con él.
+
+## Moodboard
+
+<img width="223" height="331" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 14 p m" src="https://github.com/user-attachments/assets/e1ee88df-112b-414e-85c2-9be516c9c709" />
+<img width="217" height="335" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 21 p m" src="https://github.com/user-attachments/assets/68e2e6e5-51d6-4c9e-a754-0e3b23ba2500" />
+<img width="216" height="238" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 26 p m" src="https://github.com/user-attachments/assets/43f1d5a3-8a63-4402-be4f-904654063b7c" />
+<img width="225" height="218" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 41 p m" src="https://github.com/user-attachments/assets/e95077f1-1fce-43fc-9b2c-32866dcc8a42" />
+<img width="215" height="256" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 48 p m" src="https://github.com/user-attachments/assets/06a30a89-1139-48be-a895-821ddaac4754" />
+
