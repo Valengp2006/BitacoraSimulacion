@@ -100,24 +100,6 @@ Las partículas exploradoras introducen nuevas rutas y movimientos más libres, 
 
 Finalmente, los movimientos de dos grupos inicialmente diferenciados pasan de la separación a la mezcla y posteriormente al entrelazamiento. El sistema termina convirtiéndose en una estructura integrada, donde las diferencias individuales siguen existiendo, pero forman parte de una misma red.
 
-## ¿Cómo puede una estructura de elementos relacionados y en movimiento convertirse en un lenguaje visual capaz de construir el significado de un discurso?
-
-Una estructura de elementos relacionados puede convertirse en un lenguaje visual cuando **las relaciones dejan de ser arbitrarias y adquieren un significado constante dentro del sistema**.
-
-En esta propuesta, una partícula representa una unidad individual, pero su significado cambia según la relación que establece con las demás. Una partícula aislada puede representar potencial; muchas partículas agrupadas pueden representar una comunidad; las conexiones representan relaciones; una onda representa impacto; una ruta representa exploración y un tejido representa construcción conjunta.
-
-De esta manera, **la posición, distancia, densidad, conexión y movimiento de las partículas funcionan como palabras y reglas dentro de una gramática visual**.
-
-El discurso no se representa únicamente mediante imágenes literales, sino mediante la transformación de las relaciones entre los elementos.
-
-Por eso, la presentación puede pasar de:
-
-**partículas contenidas → partículas organizadas → partículas conectadas → partículas explorando → partículas mezclándose → partículas construyendo una misma red**
-
-sin dejar de utilizar el mismo sistema visual.
-
-La estructura en movimiento permite entonces **hacer visible el proceso de transformación que plantea el discurso**.
-
 ### Cuadro de esculturas e interpretación narrativa
 
 | Slide  | Imagen de la escultura                             | Escultura / estado                | ¿Qué significa?                                                                                         | ¿Cómo se conecta con la narrativa?                                                                                                  |
