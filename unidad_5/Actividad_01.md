@@ -1,54 +1,160 @@
-# Actividad 01: Concepto de Diseño, Gramática de Transición y Estructura en 4 Actos
+# Actividad 03: Presentación grupal
 
-## Concepto de Diseño: El Tejido Intergeneracional Continuo
-El concepto central de la propuesta se titula **"Herencia Dinámica: El Tejido de la Continuidad"**. En lugar de abordar el relevo generacional como un suceso de ruptura, sustitución o un "reemplazo" frío (donde una generación apaga a la otra), el sistema propone que el relevo es un proceso de coexistencia, transferencia de momentos y construcción de una malla compartida.
+## 1. Concepto de la propuesta
 
-### Una Estructura que se Convierte en Lenguaje
-Para responder a la pregunta fundamental de la unidad (*¿cómo una estructura de elementos relacionados en movimiento se convierte en lenguaje visual?*), el sistema se fundamenta en un principio estricto: **Las partículas son la materia prima del discurso; son simultáneamente lenguaje verbal (cuerpo de texto) y estructura abstracta (escultura conceptual)**. Nada se crea ni se destruye. La transformación de sus relaciones formales es la que genera el sentido.
+La propuesta es una presentación interactiva que utiliza un **sistema de partículas como lenguaje visual** para representar el relevo generacional y las relaciones entre las personas, el conocimiento y los diferentes espacios que hacen parte del ecosistema de FÓRUM.
 
-*   **Innovación en la Interacción (Toggle Texto ↔ Escultura):** Las partículas forman inicialmente el texto legible de los titulares de las diapositivas. Tras la intervención del orador o mediante el uso de un disparador manual (**Tecla T**), el enjambre se libera del control tipográfico mediante una transición fluida y llamativa para cohesionarse en una **escultura paramétrica tridimensional** representativa del tema de ese slide. Esta dualidad demuestra que una misma materia prima puede modularse como lenguaje explícito o abstracción discursiva.
-*   **Transiciones Fluidas y Bidireccionales:** Toda transición (entre estados de un mismo slide o al navegar entre diapositivas) es completamente simétrica. Si el orador retrocede para retomar una idea del cliente, las fuerzas se recalculan de inmediato hacia los objetivos previos sin romper la inercia física de los nodos, manteniendo la coherencia narrativa en cualquier dirección.
+En lugar de utilizar una imagen diferente para cada idea, se plantea una **misma materia visual que se transforma durante toda la presentación**. Las partículas pueden representar potencial, personas, talento, conocimiento, energía o conexiones dependiendo del momento de la narrativa.
 
-## Principio Transversal: Simulación Continua sin Reset
-La decisión técnica y conceptual de fondo es que **el sistema es una sola simulación viva que corre de principio a fin a lo largo de los 13 slides**. Ningún cambio de diapositiva destruye el entorno para iniciar una animación desde cero; cada una define un *estado objetivo* de parámetros físicos (coordenadas de atracción, número de clústeres, coeficientes de fricción o grosor de aristas) y el motor de fuerzas interpola suavemente los vectores hacia ese nuevo estado.
+La presentación parte de una situación de potencial contenido y, progresivamente, muestra cómo este potencial se organiza, se abre hacia el mundo, genera conexiones, crece, descubre nuevas rutas y finalmente integra diferentes generaciones en una misma estructura.
 
-*   **Justificación Conceptual:** Si el grafo se reiniciara en cada slide, el código estaría ilustrando *sustitución* (el borrado del pasado para dar paso a lo nuevo). Al forzar la reinterpolación continua, el sistema "recuerda" su estado anterior y arrastra su trayectoria mientras muta. Esto encarna el concepto de **relevo**: la nueva generación no borra a la anterior; la hereda, interactúa con ella y la transforma en tiempo real.
+La intención es que la transformación pueda comprenderse incluso sin leer completamente el discurso:
 
+**potencial → apertura → conexión → crecimiento → exploración → integración → construcción conjunta.**
 
-## La Gramática Visual del Discurso (Arco en 4 Actos)
+La interacción también hace parte del concepto. La tecla **T** permite alternar entre el texto y la escultura, mostrando que ambos están construidos con la misma materia.
 
-El motor generativo opera de forma estable bajo un presupuesto fijo de **$N = 1{,}800$ agentes cinemáticos autónomos** controlados por comportamiento de llegada suave (*Seek & Arrive* de Craig Reynolds) combinado con una perturbación orgánica constante impulsada por Ruido Perlin (*idle*). El comportamiento macro del sistema se despliega en 4 actos narrativos:
+## 2. Gramática visual
 
-### Acto 1 — Origen (Slides 1–5): Fisión de un Núcleo Único
-Este acto narra la transición desde una perspectiva centralizada hacia la fragmentación y el reconocimiento de las fuerzas de la ciudad.
-*   **Slide 1 (Sin foto):** Las 1,800 partículas sufren una atracción masiva hacia el centro del lienzo, formando un **monolito denso y orbital**. Representa a la universidad y al auditorio tradicional como un punto de origen unificado e indiferenciado.
-*   **Slide 1 ➔ 2 (Con foto: Auditorio de Graduación):** Al entrar la primera evidencia visual del cliente, el enjambre activa su modo de **retracción espacial adaptativa**. La masa de partículas se comprime hacia la periferia en un marco de baja opacidad, cediendo el centro de la pantalla para garantizar la legibilidad absoluta de la fotografía real. El sistema respira y cede el espacio a la evidencia empírica.
-*   **Slide 2 ➔ 3 (Sin foto):** Reexpansión hacia el centro de la pantalla. Aquí ocurre la primera gran transformación física: **la fisión armónica del núcleo**. Las fuerzas de atracción se dividen en tres atractores independientes, forzando a las partículas a separarse en una **tríada gravitante de sub-clústeres** (Academia, Industria y Ciudad). La pregunta del slide 2 se responde visualmente: el espacio único se revela como tres potencias que ya convivían sin saberlo.
-*   **Slides 4 y 5 (Con foto):** Movimiento adaptativo de repliegue lateral alternado. Los sub-clústeres se retraen para no obstruir las imágenes del cliente, pero **la tríada ya nunca vuelve a fusionarse**. Cada retiro conserva la separación en tres grupos, cada vez más definidos y estables en el espacio.
+La gramática visual está construida a partir de **partículas, relaciones espaciales y movimiento**.
 
-### Acto 2 — Comunidad y Confianza (Slides 6–9): Las Aristas Cargarán el Argumento
-En esta etapa del discurso se argumenta cómo se construyen los lazos colectivos. Las posiciones macro del sistema no sufren grandes traslaciones espaciales; el significado se construye puramente a través del cambio en los vínculos.
-*   **Lógica de Conexión Mesh:** Los nodos estabilizan su posición en sus clústeres correspondientes. A medida que el discurso avanza hacia la construcción de confianza mutua, el motor de renderizado empieza a trazar líneas de conexión elástica entre partículas vecinas. Lo que evoluciona es el **grosor y la opacidad acumulada de las aristas**, haciendo que el grafo se perciba visualmente más denso, pesado y robusto.
-*   **Justificación Conceptual:** La confianza colectiva no se manifiesta como agitación o movimiento caótico; se expresa como solidez en el vínculo. Es el correlato visual más directo de "comunidad" sin inventar metáforas decorativas.
-*   **Slide 8 (Con foto):** Ocurre la retracción habitual hacia las zonas de resguardo para dar paso a la imagen, pero **el grosor y la opacidad acumulada de las aristas no sufren ningún reset**. La densidad relacional sigue activa y visible en los bordes de la pantalla, demostrando que el progreso institucional y social sigue corriendo tras bambalinas, aunque no ocupe el primer plano visual.
+Las partículas funcionan como unidades básicas del sistema. Por sí solas representan elementos individuales, pero al relacionarse pueden formar estructuras mayores como redes, ondas, tejidos, agrupaciones o textos.
 
-### Acto 3 — Relevo e Hibridación (Slides 10–12): Recategorización, no solo Reconexión
-Este acto representa el clímax narrativo y conceptual de la presentación MICE, requiriendo un cambio radical en la gramática visual.
-*   **La Gran Migración (Transición 9 ➔ 10):** El sistema abandona la clasificación de "3 clústeres institucionales" para adoptar un orden basado en **"2 especies generacionales"**. Los mismos nodos que se encontraban agrupados por instituciones sufren una reconfiguración cinemática en vivo: migran visiblemente por todo el espacio, alterando su escala, velocidad y código cromático hacia la paleta oficial de contraste del evento: **Especie A (Generación Pionera - Magenta #E0218A)** y **Especie B (Generación Emergente - Azul Eléctrico #00B4D8)**.
-*   **Justificación Conceptual:** Si los nodos de la tríada desaparecieran y se crearan nuevas partículas de la nada para ilustrar las generaciones, la obra estaría narrando *sustitución*. Al migrar y transformar las propiedades de las mismas partículas existentes, el código demuestra continuidad de identidad con un cambio de rol: los mismos actores que construyeron la confianza en el Acto 2 son los que ahora se entrelazan generacionalmente.
-*   **Slides 10 y 11 (Sin foto):** El sistema alcanza su máxima actividad estética y protagonismo visual en pantalla completa. Las dos especies de partículas se cruzan y trenzan geométricamente en una **doble hélice o vórtice toroidal continuo**, conectados entre sí mediante travesaños elásticos de color oro metálico (#FFB81C).
-*   **Slide 12 (Con foto):** Ocurre el retiro espacial para la visualización de la foto, pero **el entretejido complejo de las dos generaciones no se deshace**. A diferencia de los actos 1 y 2, el marco de resguardo conserva los cruces cromáticos activos en la periferia, argumentando visualmente que una vez consolidado el relevo, ya no hay marcha atrás hacia la separación.
+Las principales reglas de esta gramática son:
 
-### Acto 4 — Apertura y Futuro (Slide 13): De lo Orgánico a lo Ordenado
-El cierre de la conferencia demanda una resolución estructural contundente alineada con el llamado a la acción.
-*   **La Estructuración del Caos:** Es la única transición de toda la experiencia que cambia por completo la naturaleza de las leyes físicas del código. Las partículas abandonan el movimiento fluido libre de atracción/repulsión orgánica y las fuerzas de turbulencia Perlin. Los vectores de los 1,800 nodos ejecutan un mapeo lineal directo hacia coordenadas espaciales fijas y simétricas, transformando el enjambre en una **grilla ortogonal perspectivada (portal de líneas de fuga)**.
-*   **Justificación Conceptual:** El final de la charla no es una idea abierta ni caótica; es un llamado concreto a la acción interactiva a través de un código QR. Que el caos fluido de la simulación "resuelva" en un orden ortogonal y cristalino argumenta físicamente que el relevo generacional, cuando se teje de forma correcta, produce estructura, sistema y base sólida aprovechable para el futuro del liderazgo. El portal enmarca simétricamente el QR de cierre sin competir con él.
+| Elemento visual     | Función dentro del lenguaje                                      |
+| ------------------- | ---------------------------------------------------------------- |
+| **Partícula**       | Representa una unidad: persona, talento, conocimiento o energía. |
+| **Agrupación**      | Representa comunidades, espacios o conjuntos de personas.        |
+| **Densidad**        | Comunica concentración, crecimiento o acumulación.               |
+| **Distancia**       | Representa cercanía, separación o aislamiento.                   |
+| **Conexión**        | Representa relaciones, colaboración y confianza.                 |
+| **Filamento / red** | Representa una comunidad o sistema interconectado.               |
+| **Onda**            | Representa la propagación de un impacto.                         |
+| **Ruta**            | Representa exploración, descubrimiento y nuevas posibilidades.   |
+| **Transformación**  | Representa cambio y evolución del sistema.                       |
+| **Mezcla**          | Representa la convivencia entre diferentes generaciones.         |
+| **Tejido**          | Representa construcción y colaboración conjunta.                 |
 
-## Moodboard
+Por lo tanto, la gramática no depende únicamente de la forma final de una escultura, sino de **cómo los elementos se relacionan y cambian entre un estado y otro**.
 
-<img width="223" height="331" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 14 p m" src="https://github.com/user-attachments/assets/e1ee88df-112b-414e-85c2-9be516c9c709" />
-<img width="217" height="335" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 21 p m" src="https://github.com/user-attachments/assets/68e2e6e5-51d6-4c9e-a754-0e3b23ba2500" />
-<img width="216" height="238" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 26 p m" src="https://github.com/user-attachments/assets/43f1d5a3-8a63-4402-be4f-904654063b7c" />
-<img width="225" height="218" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 41 p m" src="https://github.com/user-attachments/assets/e95077f1-1fce-43fc-9b2c-32866dcc8a42" />
-<img width="215" height="256" alt="Captura de pantalla 2026-09-16 a la(s) 4 10 48 p m" src="https://github.com/user-attachments/assets/06a30a89-1139-48be-a895-821ddaac4754" />
+## 3. Relaciones estructurales
 
+El sistema utiliza diferentes relaciones estructurales para construir el significado.
+
+### Agrupación y separación
+
+Las partículas pueden concentrarse en un mismo espacio o separarse en diferentes grupos.
+
+Esto permite representar, por ejemplo, la aparición de **Academia, Industria y Ciudad** como tres dimensiones relacionadas que parten de un mismo origen.
+
+### Conexión
+
+Cuando las partículas comienzan a establecer filamentos entre sí, dejan de funcionar como elementos aislados y pasan a representar una comunidad.
+
+La cantidad y fuerza de las conexiones también permite mostrar cómo una comunidad puede crecer a partir de la confianza.
+
+### Atracción
+
+Las estructuras pueden atraer nuevas partículas hacia ellas.
+
+Esta relación representa cómo una red que crece y genera confianza puede atraer nuevo talento y nuevas personas.
+
+### Exploración
+
+Algunas partículas pueden abandonar temporalmente una estructura y desplazarse por el espacio.
+
+Esto representa la búsqueda de nuevas rutas y la exploración de nuevas posibilidades por parte de las nuevas generaciones.
+
+### Interpenetración
+
+En los momentos relacionados con las generaciones, dos conjuntos de partículas comienzan separados y progresivamente se mezclan.
+
+La intención no es representar un reemplazo, sino mostrar que **dos generaciones pueden conservar características propias mientras forman parte del mismo sistema**.
+
+### Tejido
+
+En el final, las conexiones se cruzan y se entrelazan hasta formar una estructura conjunta.
+
+Esta relación representa que el futuro no es algo que una generación recibe pasivamente, sino algo que se **construye mediante la colaboración entre diferentes personas y experiencias**.
+
+## 4. Comportamiento y significado
+
+El movimiento de las partículas no se utiliza únicamente como decoración. Cada cambio de comportamiento tiene una intención comunicativa.
+
+Al comienzo, las partículas están **contenidas y comprimidas**, representando un potencial que todavía no está siendo aprovechado.
+
+Después se **organizan** para formar un auditorio, mostrando cómo ese potencial puede quedar limitado por una estructura determinada.
+
+Posteriormente se **expanden y se ramifican**, representando la apertura de la Universidad hacia Academia, Industria y Ciudad.
+
+Cuando una perturbación se transmite de un grupo a otro, el movimiento funciona como una **onda de impacto**, mostrando que las acciones dentro de un ecosistema pueden afectar a sus diferentes partes.
+
+Más adelante aparecen conexiones que se multiplican y atraen nuevas partículas. La estructura pasa de ser un conjunto de elementos a convertirse en una **red**, representando comunidad, confianza y crecimiento.
+
+Las partículas exploradoras introducen nuevas rutas y movimientos más libres, asociados a las nuevas generaciones.
+
+Finalmente, los movimientos de dos grupos inicialmente diferenciados pasan de la separación a la mezcla y posteriormente al entrelazamiento. El sistema termina convirtiéndose en una estructura integrada, donde las diferencias individuales siguen existiendo, pero forman parte de una misma red.
+
+## ¿Cómo puede una estructura de elementos relacionados y en movimiento convertirse en un lenguaje visual capaz de construir el significado de un discurso?
+
+Una estructura de elementos relacionados puede convertirse en un lenguaje visual cuando **las relaciones dejan de ser arbitrarias y adquieren un significado constante dentro del sistema**.
+
+En esta propuesta, una partícula representa una unidad individual, pero su significado cambia según la relación que establece con las demás. Una partícula aislada puede representar potencial; muchas partículas agrupadas pueden representar una comunidad; las conexiones representan relaciones; una onda representa impacto; una ruta representa exploración y un tejido representa construcción conjunta.
+
+De esta manera, **la posición, distancia, densidad, conexión y movimiento de las partículas funcionan como palabras y reglas dentro de una gramática visual**.
+
+El discurso no se representa únicamente mediante imágenes literales, sino mediante la transformación de las relaciones entre los elementos.
+
+Por eso, la presentación puede pasar de:
+
+**partículas contenidas → partículas organizadas → partículas conectadas → partículas explorando → partículas mezclándose → partículas construyendo una misma red**
+
+sin dejar de utilizar el mismo sistema visual.
+
+La estructura en movimiento permite entonces **hacer visible el proceso de transformación que plantea el discurso**.
+
+### Cuadro de esculturas e interpretación narrativa
+
+| Slide  | Imagen de la escultura                             | Escultura / estado                | ¿Qué significa?                                                                                         | ¿Cómo se conecta con la narrativa?                                                                                                  |
+| ------ | -------------------------------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **1**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 09 57 a m" src="https://github.com/user-attachments/assets/0aadd436-77b7-436b-b0fe-24da2d957624" />
+ | **Potencial contenido**           | Una gran cantidad de partículas permanece comprimida en un espacio pequeño.                             | Representa un potencial que existe, pero todavía no ha sido descubierto ni aprovechado.                                             |
+| **2**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 08 a m" src="https://github.com/user-attachments/assets/1ea76b04-0bae-42cc-999d-e8f166bd5346" />
+ | **Auditorio**                     | Las partículas se organizan en una estructura rígida y reconocible como un auditorio.                   | El potencial queda limitado por un uso específico del espacio: un gran auditorio utilizado principalmente para grados.              |
+| **3**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 16 a m" src="https://github.com/user-attachments/assets/6ee13ee0-0fa2-43f5-9fbe-e3c2679d9da4" />
+  | **Universidad que se abre**       | Una estructura central se desarma y las partículas comienzan a expandirse hacia diferentes direcciones. | Representa el momento en que la Universidad deja de estar contenida y comienza a encontrarse con el mundo.                          |
+| **4**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 23 a m" src="https://github.com/user-attachments/assets/396212a5-3627-4394-aa56-4250507496f5" />
+  | **Academia + Industria + Ciudad** | Las partículas se estabilizan en tres sistemas relacionados pero diferenciados.                         | Muestra las tres dimensiones con las que la Universidad establece relaciones.                                                       |
+| **5**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 31 a m" src="https://github.com/user-attachments/assets/a85adb0d-b167-4120-b212-0658472a8e13" />
+  | **Onda de impacto**               | Una perturbación se desplaza de un grupo hacia los demás.                                               | Representa cómo una acción o transformación puede generar efectos en todo el ecosistema.                                            |
+| **6**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 40 a m" src="https://github.com/user-attachments/assets/e3a38307-adf7-4e87-a3a9-03ad6bad6b96" />
+  | **Tejido / constelación**         | Aparecen conexiones entre partículas individuales y los grupos comienzan a entrelazarse.                | Representa la formación de una comunidad a través de las relaciones.                                                                |
+| **7**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 50 a m" src="https://github.com/user-attachments/assets/55e784bf-f6d5-4a66-a73a-3021926e097f" />
+  | **Red que crece**                 | La red aumenta su complejidad y atrae nuevas partículas.                                                | Representa cómo el talento puede crecer y atraer nuevas personas cuando aumenta la confianza.                                       |
+| **8**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 00 a m" src="https://github.com/user-attachments/assets/cd2a2df2-76e4-427f-9c6e-07583c114986" />
+  | **Nuevas rutas**                  | Algunas partículas abandonan la red, exploran y generan nuevos caminos.                                 | Representa a las nuevas generaciones descubriendo posibilidades y formas diferentes de recorrer el sistema.                         |
+| **9**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 09 a m" src="https://github.com/user-attachments/assets/92624b5a-da38-4959-8ba5-15d824c752de" />
+  | **Dos generaciones**              | Aparecen dos comportamientos de partículas dentro del mismo ecosistema.                                 | Representa la coexistencia de dos generaciones con características diferentes, pero una misma visión.                               |
+| **10** | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 20 a m" src="https://github.com/user-attachments/assets/dbffabdb-19cc-44f0-b5bb-343a44121d17" />
+ | **Mezcla generacional**           | Las dos poblaciones comienzan a interpenetrarse sin que ninguna desaparezca.                            | Comunica que la nueva generación no reemplaza a la anterior, sino que trabaja junto a ella.                                         |
+| **11** | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 31 a m" src="https://github.com/user-attachments/assets/acaf59ff-4219-4d4d-b371-b80dfbd85eb6" />
+ | **Presencia periférica**          | Las partículas jóvenes ya forman parte de la red, aunque no siempre ocupan el centro visual.            | Representa una generación que ya está presente y participando, pero que todavía puede pasar desapercibida.                          |
+| **12** | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 40 a m" src="https://github.com/user-attachments/assets/6c4b1a12-376a-425f-ab57-1ebdfea59d2a" />
+ | **Tejido generacional**           | Las partículas de ambas generaciones se entrelazan para construir una estructura común.                 | Representa la colaboración y la construcción conjunta del futuro.                                                                   |
+| **13** | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 52 a m" src="https://github.com/user-attachments/assets/5e018c05-8688-4514-aeab-b1735b8361a2" />
+ | **Red integrada**                 | Todas las partículas forman una única estructura amplia e interconectada.                               | Representa la integración final: las generaciones dejan de funcionar como grupos separados y construyen juntas un mismo ecosistema. |
+
+## Autoevaluación del proyecto
+
+| Criterio                            | Autoevaluación                                                                                                                                                                                                                                                                                                                                                                                                                           |     Puntaje |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------: |
+| **1. Cumplimiento del encargo**     | Mi presentación interpreta el guion mediante una estructura dinámica basada en un sistema de partículas que se transforma a lo largo de los 13 slides. La misma materia visual pasa por diferentes estados para representar el desarrollo de la narrativa. La propuesta funciona en pantalla completa y mantiene una composición visual coherente durante toda la experiencia.                                                           |   **25/25** |
+| **2. Relaciones estructurales**     | Puedo explicar las relaciones que existen dentro del sistema y el significado que adquieren en la narrativa. Las partículas pueden **agruparse, separarse, conectarse, atraerse, desplazarse, mezclarse y entrelazarse**. La distancia, densidad y organización permiten representar conceptos como comunidad, crecimiento, exploración y colaboración.                                                                                  |   **25/25** |
+| **3. Comportamiento y significado** | Los cambios de movimiento, estructura, densidad y composición tienen una intención comunicativa. La contención representa potencial no aprovechado; la expansión, apertura; las ondas, impacto; las conexiones, comunidad y confianza; la exploración, nuevas rutas; y el entrelazamiento, la construcción conjunta entre generaciones. El movimiento funciona como parte del lenguaje visual y no únicamente como animación decorativa. |   **25/25** |
+| **4. Explicación y demostración**   | Puedo presentar la propuesta funcionando y explicar las decisiones detrás de su construcción. Puedo demostrar cómo las partículas forman el texto, cómo se transforman en las diferentes esculturas y cómo cambian sus relaciones según el momento de la narrativa. También puedo mostrar la interacción con la tecla **T**, que permite alternar entre el texto y la representación visual.                                             |   **25/25** |
+| **TOTAL**                           |                                                                                                                                                                                                                                                                                                                                                                                                                                          | **100/100** |
+
+### Reflexión
+
+> Una estructura de elementos relacionados y en movimiento puede convertirse en un lenguaje visual cuando sus relaciones y transformaciones tienen un significado dentro del discurso. En mi propuesta, las partículas funcionan como unidades que pueden contener, organizarse, conectarse, crecer, explorar y entrelazarse. De esta manera, la misma materia visual construye diferentes significados sin dejar de pertenecer a un único sistema.
