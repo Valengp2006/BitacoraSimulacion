@@ -100,37 +100,6 @@ Las partículas exploradoras introducen nuevas rutas y movimientos más libres, 
 
 Finalmente, los movimientos de dos grupos inicialmente diferenciados pasan de la separación a la mezcla y posteriormente al entrelazamiento. El sistema termina convirtiéndose en una estructura integrada, donde las diferencias individuales siguen existiendo, pero forman parte de una misma red.
 
-### Cuadro de esculturas e interpretación narrativa
-
-| Slide  | Imagen de la escultura                             | Escultura / estado                | ¿Qué significa?                                                                                         | ¿Cómo se conecta con la narrativa?                                                                                                  |
-| ------ | -------------------------------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **1**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 09 57 a m" src="https://github.com/user-attachments/assets/0aadd436-77b7-436b-b0fe-24da2d957624" />
- | **Potencial contenido**           | Una gran cantidad de partículas permanece comprimida en un espacio pequeño.                             | Representa un potencial que existe, pero todavía no ha sido descubierto ni aprovechado.                                             |
-| **2**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 08 a m" src="https://github.com/user-attachments/assets/1ea76b04-0bae-42cc-999d-e8f166bd5346" />
- | **Auditorio**                     | Las partículas se organizan en una estructura rígida y reconocible como un auditorio.                   | El potencial queda limitado por un uso específico del espacio: un gran auditorio utilizado principalmente para grados.              |
-| **3**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 16 a m" src="https://github.com/user-attachments/assets/6ee13ee0-0fa2-43f5-9fbe-e3c2679d9da4" />
-  | **Universidad que se abre**       | Una estructura central se desarma y las partículas comienzan a expandirse hacia diferentes direcciones. | Representa el momento en que la Universidad deja de estar contenida y comienza a encontrarse con el mundo.                          |
-| **4**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 23 a m" src="https://github.com/user-attachments/assets/396212a5-3627-4394-aa56-4250507496f5" />
-  | **Academia + Industria + Ciudad** | Las partículas se estabilizan en tres sistemas relacionados pero diferenciados.                         | Muestra las tres dimensiones con las que la Universidad establece relaciones.                                                       |
-| **5**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 31 a m" src="https://github.com/user-attachments/assets/a85adb0d-b167-4120-b212-0658472a8e13" />
-  | **Onda de impacto**               | Una perturbación se desplaza de un grupo hacia los demás.                                               | Representa cómo una acción o transformación puede generar efectos en todo el ecosistema.                                            |
-| **6**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 40 a m" src="https://github.com/user-attachments/assets/e3a38307-adf7-4e87-a3a9-03ad6bad6b96" />
-  | **Tejido / constelación**         | Aparecen conexiones entre partículas individuales y los grupos comienzan a entrelazarse.                | Representa la formación de una comunidad a través de las relaciones.                                                                |
-| **7**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 10 50 a m" src="https://github.com/user-attachments/assets/55e784bf-f6d5-4a66-a73a-3021926e097f" />
-  | **Red que crece**                 | La red aumenta su complejidad y atrae nuevas partículas.                                                | Representa cómo el talento puede crecer y atraer nuevas personas cuando aumenta la confianza.                                       |
-| **8**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 00 a m" src="https://github.com/user-attachments/assets/cd2a2df2-76e4-427f-9c6e-07583c114986" />
-  | **Nuevas rutas**                  | Algunas partículas abandonan la red, exploran y generan nuevos caminos.                                 | Representa a las nuevas generaciones descubriendo posibilidades y formas diferentes de recorrer el sistema.                         |
-| **9**  | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 09 a m" src="https://github.com/user-attachments/assets/92624b5a-da38-4959-8ba5-15d824c752de" />
-  | **Dos generaciones**              | Aparecen dos comportamientos de partículas dentro del mismo ecosistema.                                 | Representa la coexistencia de dos generaciones con características diferentes, pero una misma visión.                               |
-| **10** | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 20 a m" src="https://github.com/user-attachments/assets/dbffabdb-19cc-44f0-b5bb-343a44121d17" />
- | **Mezcla generacional**           | Las dos poblaciones comienzan a interpenetrarse sin que ninguna desaparezca.                            | Comunica que la nueva generación no reemplaza a la anterior, sino que trabaja junto a ella.                                         |
-| **11** | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 31 a m" src="https://github.com/user-attachments/assets/acaf59ff-4219-4d4d-b371-b80dfbd85eb6" />
- | **Presencia periférica**          | Las partículas jóvenes ya forman parte de la red, aunque no siempre ocupan el centro visual.            | Representa una generación que ya está presente y participando, pero que todavía puede pasar desapercibida.                          |
-| **12** | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 40 a m" src="https://github.com/user-attachments/assets/6c4b1a12-376a-425f-ab57-1ebdfea59d2a" />
- | **Tejido generacional**           | Las partículas de ambas generaciones se entrelazan para construir una estructura común.                 | Representa la colaboración y la construcción conjunta del futuro.                                                                   |
-| **13** | <img width="1334" height="671" alt="Captura de pantalla 2026-09-18 a la(s) 7 11 52 a m" src="https://github.com/user-attachments/assets/5e018c05-8688-4514-aeab-b1735b8361a2" />
- | **Red integrada**                 | Todas las partículas forman una única estructura amplia e interconectada.                               | Representa la integración final: las generaciones dejan de funcionar como grupos separados y construyen juntas un mismo ecosistema. |
-
  ### Cuadro de esculturas e interpretación narrativa
 
 | Slide | Imagen de la escultura | Escultura / estado | ¿Qué significa? | ¿Cómo se conecta con la narrativa? |
