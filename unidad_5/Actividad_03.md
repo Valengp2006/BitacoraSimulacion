@@ -1,6 +1,7 @@
 # Actividad 03: Presentación grupal
 
 [Enlace página web](https://valengp2006.github.io/relevo-generacional-upb/)
+
 [Enlace repositorio](https://github.com/Valengp2006/relevo-generacional-upb)
 
 ## 1. Concepto de la propuesta
