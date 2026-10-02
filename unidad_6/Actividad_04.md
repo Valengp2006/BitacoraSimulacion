@@ -136,7 +136,7 @@ La paleta no cambia de colores a lo largo de la pieza: cambia la **cantidad** de
 - **Ensayos:** 4 ensayos en vivo de la pieza completa (1 de octubre), con todos los controles.
   El sistema respondió bien y la calibración de color funcionó. Los pequeños defectos de los
   bordes se integraron en la interpretación. Uno de ellos está grabado:
-  [video en Google Drive](https://drive.google.com/file/d/1hiOvklknYdQwIyDW1IOgFxDub6h1l9Py/view?usp=drive_web).
+  video en Google Drive.
 - **Respuesta a lo observado al tocar:** tras los ensayos, la autora pidió que los cuerpos
   se formaran más rápido y fueran más grandes, y que la dispersión fuera más impactante. El
   instrumento se ajustó en consecuencia
