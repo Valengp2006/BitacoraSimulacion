@@ -9,7 +9,7 @@
 >
 > **Ensayos:** el 1 de octubre se hicieron 4 ensayos en vivo de la pieza completa, con todos los
 > controles, y funcionaron bien. Hay dos videos:
-> - [uno de esos cuatro ensayos (Google Drive)](https://drive.google.com/file/d/1hiOvklknYdQwIyDW1IOgFxDub6h1l9Py/view?usp=drive_web), antes del ajuste de los cuerpos;
+> - uno de esos cuatro ensayos (Google Drive), antes del ajuste de los cuerpos;
 > - [un ensayo completo posterior](https://github.com/Valengp2006/contemplar-lo-infinito/blob/main/docs/evidencias/ensayo-2026-10-01.mp4), con los cuerpos ya
 >   ajustados.
 
