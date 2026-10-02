@@ -1,7 +1,5 @@
 [Enlace repositorio del proyecto](https://github.com/Valengp2006/contemplar-lo-infinito)
 
-Nota: Bitácora completa y evidencias en el repositorio del proyecto
-
 ## Autoevaluación (Actividad 04)
 
 > Los ensayos con la música están en la tabla "Registro de ensayos" de la [bitácora](https://github.com/Valengp2006/contemplar-lo-infinito/blob/main/docs/bitacora.md).
