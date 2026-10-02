@@ -4,8 +4,7 @@ Nota: Bitácora completa y evidencias en el repositorio del proyecto
 
 ## Autoevaluación (Actividad 04)
 
-> Puntajes decididos por la autora; se sustentan durante la presentación. Los ensayos con la
-> música están en la tabla "Registro de ensayos" de la [bitácora](https://github.com/Valengp2006/contemplar-lo-infinito/blob/main/docs/bitacora.md).
+> Los ensayos con la música están en la tabla "Registro de ensayos" de la [bitácora](https://github.com/Valengp2006/contemplar-lo-infinito/blob/main/docs/bitacora.md).
 >
 > **Ensayos:** el 1 de octubre se hicieron 4 ensayos en vivo de la pieza completa, con todos los
 > controles, y funcionaron bien. Hay dos videos:
@@ -30,12 +29,12 @@ musical elegida.*
   Pages y se despliega solo con cada cambio en `main`. El sitio en vivo usa el mismo archivo de
   build que la versión actual del código.
 - **Tiempo real.**
-  - En la Mac de la autora corre a 120 fps, el tope de la pantalla, incluso con 200.000
+  - En la Mac corre a 120 fps, el tope de la pantalla, incluso con 200.000
     agentes (medido con el contador de fps del modo desarrollo).
   - En el banco de pruebas, la simulación de 200.000 agentes con huella, cuerpos y pulsos
     toma ~1,8 ms por paso, menos del 15 % del tiempo disponible a 60 fps.
 - **Interpreta la pieza.**
-  - La autora tocó la pieza completa en vivo en **4 ensayos** (1 de octubre), con todos los
+  - Se tocó la pieza completa en vivo en **4 ensayos**, con todos los
     controles, y el sistema funcionó bien ([registro de ensayos](https://github.com/Valengp2006/contemplar-lo-infinito/blob/main/docs/bitacora.md)).
   - La música suena de fondo desde el clic de inicio.
   - El recorrido emocional de la obra está traducido en niveles y controles (ver el [score](https://github.com/Valengp2006/contemplar-lo-infinito#score-de-interpretación)).
@@ -47,9 +46,6 @@ musical elegida.*
   interpretación sin afectarla (ver [Limitaciones conocidas](https://github.com/Valengp2006/contemplar-lo-infinito#limitaciones-conocidas)).
 
 ### 2. Comprensión y verificación — 25 / 25
-
-*Puedo explicar cómo está construido el sistema, qué perciben los agentes y cómo calculan sus
-acciones. Puedo predecir y verificar los cambios al modificar un parámetro.*
 
 - Lo que percibe cada agente y cómo calcula su acción está descrito en la sección
   [Cómo funciona](https://github.com/Valengp2006/contemplar-lo-infinito#cómo-funciona) del README.
@@ -72,9 +68,6 @@ acciones. Puedo predecir y verificar los cambios al modificar un parámetro.*
     lugar de vecinos individuales (ver la "Decisión técnica" en [Cómo funciona](https://github.com/Valengp2006/contemplar-lo-infinito#cómo-funciona) y la [bitácora](https://github.com/Valengp2006/contemplar-lo-infinito/blob/main/docs/bitacora.md)).
 
 ### 3. Diseño e intención — 25 / 25
-
-*Puedo justificar la selección y combinación de comportamientos y relacionarlos con mi
-interpretación musical.*
 
 **Cada algoritmo tiene un papel conceptual:**
 
@@ -120,9 +113,6 @@ La paleta no cambia de colores a lo largo de la pieza: cambia la **cantidad** de
 - en los ensayos, la calibración de color funcionó bien.
 
 ### 4. Interpretación humana — 25 / 25
-
-*Mi score y mis controles permiten conducir el sistema en vivo y responder a su
-comportamiento.*
 
 - **[Score](https://github.com/Valengp2006/contemplar-lo-infinito#score-de-interpretación):** una tabla por sección musical con el nivel y las acciones.
 - **Controles:**
