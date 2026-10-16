@@ -1,8 +1,10 @@
 # Bitácora del proyecto: Hechizos
 
 **Unidad 7 · Sistema tipográfico jugable con DISNEY**
-**Repositorio:** github.com/Valengp2006/hechizos-disney
-**Sitio publicado:** valengp2006.github.io/hechizos-disney
+
+**Repositorio:** https://github.com/Valengp2006/hechizos-disney 
+
+**Sitio publicado:** https://valengp2006.github.io/hechizos-disney/ 
 
 ## 0. Resumen
 
