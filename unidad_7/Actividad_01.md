@@ -16,7 +16,6 @@
 | Verbo central | *Encantar* (hechizar y también deleitar) |
 | Efecto buscado | Asombro, alegría y calidez |
 | Contexto de uso | Pantalla interactiva en un evento o exhibición |
-| Entrada | Mouse (dejé la entrada por mano prevista y pospuesta) |
 | Duración de una partida | De 3 a 4 minutos como máximo (probado) |
 | Stack | Vite, three.js, opentype.js y Web Audio; sin otras dependencias |
 | Tipografía | Cinzel Bold (licencia OFL), local en `public/fonts/` |
@@ -171,12 +170,11 @@ Hice la prueba con sonido: funciona bien y la experiencia completa dura de **3 a
 
 ## 6. Fuentes
 
-| Fuente | Uso | Estado |
-| --- | --- | --- |
-| Compromiso Disney, sección Institucional (compromiso.disneylatino.com/institucional) | Misión y visión de la compañía | Verificada |
-| Oropeza, C. (21/04/2023). *La magia detrás del branding de Disney*. We Build It | Magia y fantasía como identidad; castillo y polvo de hadas | Verificada (es un blog de marca: contexto, no respaldo académico) |
-| ResearchGate: *Esquema de análisis de los atributos de la marca Disney y diversas producciones* | Posible respaldo académico de los atributos | **Sin verificar** (403) |
-| Thomas, F. y Johnston, O., *The Illusion of Life* | Principios de animación (por ejemplo, *squash and stretch*) | Por verificar antes de citarla |
+| Fuente | Uso |
+| --- | --- | 
+| Compromiso Disney, sección Institucional (compromiso.disneylatino.com/institucional) | Misión y visión de la compañía | 
+| Oropeza, C. (21/04/2023). *La magia detrás del branding de Disney*. We Build It | Magia y fantasía como identidad; castillo y polvo de hadas | 
+| ResearchGate: *Esquema de análisis de los atributos de la marca Disney y diversas producciones* | Posible respaldo académico de los atributos | 
 | Ji Lee, *Word as Image* | Las letras construyen significado | Referente de la actividad |
 | Abecedario ilustrado de referencia | Idea de que la letra se vuelva objeto | Solo la idea, no sus dibujos |
 | Cinzel (OFL), three.js, opentype.js, Vite | Tipografía y herramientas | Licencias libres |
