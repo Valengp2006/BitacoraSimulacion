@@ -23,8 +23,6 @@
 
 **Mi idea en una frase.** Una pantalla casi oscura y un punto de luz que sigue al cursor. Las letras no se ven: cada una guarda un hechizo que un gesto abre, un minijuego despierta y que la convierte en un objeto de cuento. Cuando las seis despiertan, convergen en la palabra y de sus astas crece un castillo genérico.
 
-**Regla de oro del encargo, que respeté.** Jugable es explorar y descubrir: sin puntuación, niveles ni condición de victoria. El castillo es un cierre, no una meta.
-
 ## 1. Concepto
 
 ### 1.1 El atributo como concepto: magia y fantasía
