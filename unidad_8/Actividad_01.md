@@ -1,7 +1,9 @@
 # Bitácora — Unidad 8: Why Bother? ¿Para qué tomarte el trabajo?
 
 **Obra:** *Cauce* 
+
 **Repositorio:** https://github.com/Valengp2006/why-bother
+
 **Versión publicada:** https://valengp2006.github.io/why-bother/
 
 ## 1. La obra en pocas líneas
