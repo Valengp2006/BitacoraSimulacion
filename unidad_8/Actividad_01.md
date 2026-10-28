@@ -88,3 +88,5 @@ Aprendí a usar nuevas herramientas, a diseñar a partir de requisitos y a descu
 ## 10. Qué sentido tuvo
 
 Lo que más vale la pena hacer uno mismo es el diseño: buscar referentes, decidir qué hacer y qué emoción transmitir. Es tedioso, pero el resultado lo vale. *Cauce* resume mi postura: el sistema pone el agua y yo decido por dónde corre.
+
+**Autoevaluación:** 5
