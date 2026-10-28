@@ -85,7 +85,7 @@ Una limitación que reconozco: no entendía bien el código y cualquier cambio m
 
 Aprendí a usar nuevas herramientas, a diseñar a partir de requisitos y a descubrir posibilidades que no habría imaginado sin ellas. Si volviera a empezar, seguiría delegando lo técnico, pero dedicaría más tiempo a entender lo que estoy haciendo.
 
-## 10. Qué sentido tuvo
+## 8. Qué sentido tuvo
 
 Lo que más vale la pena hacer uno mismo es el diseño: buscar referentes, decidir qué hacer y qué emoción transmitir. Es tedioso, pero el resultado lo vale. *Cauce* resume mi postura: el sistema pone el agua y yo decido por dónde corre.
 
